@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "tg-food"
+version = "0.1.0"
+description = ""
+authors = ["sat"]
+readme = "README.md"
+packages = [{include = "tg_food"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.2"
+bs4 = "^0.0.1"
+aiohttp = "^3.8.4"
+aiofiles = "^23.1.0"
+aiogram = "^2.25.1"
+load-dotenv = "^0.1.0"
+sqlalchemy = "^2.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
