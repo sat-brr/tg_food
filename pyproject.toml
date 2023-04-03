@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["sat"]
 readme = "README.md"
-packages = [{include = "tg_food"}]
+packages = [{include = "tg_app"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"

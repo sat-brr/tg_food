@@ -755,6 +755,18 @@ pymysql = ["pymysql"]
 sqlcipher = ["sqlcipher3-binary"]
 
 [[package]]
+name = "suds"
+version = "1.1.2"
+description = "Lightweight SOAP client (community fork)"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+files = [
+    {file = "suds-1.1.2-py3-none-any.whl", hash = "sha256:e421744c393d876127f1996be4d7c6154476c0b0f543f9cb436f4add5b916c9d"},
+    {file = "suds-1.1.2.tar.gz", hash = "sha256:1d5cfa74117193b244a4233f246c483d9f41198b448c5f14a8bad11c4f649f2b"},
+]
+
+[[package]]
 name = "typing-extensions"
 version = "4.5.0"
 description = "Backported and Experimental Type Hints for Python 3.7+"
@@ -874,4 +886,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "3ba9c0367ea53c6f3fd171bb55cb79ff4d2c8faec27d84e15db6208da57b9675"
+content-hash = "2ee37bfd5ab447ec0020080a09ca82272afc4734fdf930771a9aba8e782aa53d"

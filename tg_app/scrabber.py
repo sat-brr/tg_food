@@ -1,9 +1,7 @@
-import requests
+from typing import Any, List
 from bs4 import BeautifulSoup as bs
-from urllib.parse import urlparse
 import json
 import time
-from random import randint
 import asyncio
 from aiohttp import ClientSession
 
@@ -13,10 +11,10 @@ start_time = time.time()
 headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"}
 main_page = 'https://calorizator.ru/product/all'
 pages_link = 'https://calorizator.ru/product/all?page='
-path_to_file = 'products.json'
+path_to_file = 'tg_app/products.json'
 
 
-async def collect_data(dtr):
+async def collect_data(dtr: str) -> dict:
     name = dtr.find('td', class_='views-field views-field-title active').text.strip()
     url = dtr.find('td', class_='views-field views-field-title active').find('a').get('href')
     protein = dtr.find('td', class_='views-field views-field-field-protein-value').text.strip()
@@ -24,19 +22,17 @@ async def collect_data(dtr):
     carbohydrate = dtr.find('td', class_='views-field views-field-field-carbohydrate-value').text.strip()
     kcal = dtr.find('td', class_='views-field views-field-field-kcal-value').text.strip()
 
-    product = {
+    return {
         'name': name,
         'protein': protein,
         'fat': fat,
         'carbohydrate': carbohydrate,
         'kcal': kcal,
-        'url': f'https://calorizator.ru{url}'
+        'url': f'https://calorizator.ru{url}',
     }
-    
-    return product
 
 
-async def get_dom(session, url):
+async def get_dom(session: ClientSession, url: str) -> Any | None:
 
     try:
         await asyncio.sleep(2)
@@ -53,13 +49,12 @@ async def get_dom(session, url):
             task = asyncio.create_task(collect_data(dtr))
             tasks.append(task)
 
-        results = await asyncio.gather(*tasks)
-        return results
-    except:
+        return await asyncio.gather(*tasks)
+    except Exception as err:
         print(f'Error with page {url}')
 
 
-async def get_pages():
+async def get_pages() -> None:
     async with ClientSession() as session:
 
         response = await session.get(url=main_page, headers=headers)
@@ -86,15 +81,9 @@ async def get_pages():
         for page in pages_data:
             new_list.extend(page)      
 
-        with open('products.json', 'w') as file:
+        with open('tg_app/products.json', 'w') as file:
             file.write(json.dumps(new_list, indent=4, ensure_ascii=False))
 
 
-async def main():
+async def main() -> None:
     await(get_pages())
-    finish_time = time.time() - start_time
-    print(finish_time)
-
-
-if __name__ == '__main__':
-    asyncio.run(main())

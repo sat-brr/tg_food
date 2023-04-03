@@ -1,0 +1,1 @@
+export PYTHONPATH="$PYTHONPATH:/home/satdev/develop/tg-food/tg_app/*"
