@@ -1,11 +1,14 @@
-from tg_app.tg_bot.bot_config import dp
-from aiogram import Dispatcher, types
-from tg_app.product_worker import get_product
-from aiogram.utils.markdown import hbold, hlink
 import time
-from aiogram.dispatcher.filters.state import StatesGroup, State
+
+from aiogram import types
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters import Text
+from aiogram.dispatcher.filters.state import State, StatesGroup
+from aiogram.utils.markdown import hbold, hlink
+
+from tg_app.product_worker import find_and_calc
+from tg_app.tg_bot.bot_config import dp
+
 
 class ProdName(StatesGroup):
     product_name = State()
@@ -14,9 +17,13 @@ class ProdName(StatesGroup):
 async def get_product_name(message: types.Message) -> None:
     keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
     keyboard.add('/back')
-    await message.answer("Для получения информации о продукте введите название продукта и" \
-                            " через запятую количество грамм. Если не указывать граммы, выведется на 100г." \
-                            " Пример: Морковь фиолетовая, 100", reply_markup=keyboard)
+    await message.answer(
+        "Для получения информации о продукте введите название продукта и"
+        " через запятую количество грамм."
+        " Если не указывать граммы, выведется на 100г."
+        " Пример: Морковь фиолетовая, 100",
+        reply_markup=keyboard
+        )
     await ProdName.product_name.set()
 
 
@@ -32,13 +39,14 @@ async def get_products(message: types.Message, state: FSMContext) -> None:
         try:
             gram = int(mes[1])
         except Exception:
-            await message.answer("Что то пошло не так. Будет выведена информация на 100г")
+            await message.answer("Что то пошло не так."
+                                 " Будет выведена информация на 100г")
 
     if len(mes) > 2:
         await message.answer("Укажите одно число после запятой")
         return
 
-    if product_list := get_product(mes[0].strip(), gram):
+    if product_list := find_and_calc(mes[0].strip(), gram):
         for index, prod in enumerate(product_list):
 
             card = f'{hlink(prod.get("name"), prod.get("url"))}\n' \
@@ -48,7 +56,7 @@ async def get_products(message: types.Message, state: FSMContext) -> None:
                 f'{hbold("Углеводы: ")}{prod["carbohydrate"]}\n' \
                 f'{hbold("Ккал: ")}{prod["kcal"]}\n'
 
-            if index%10 == 0:
+            if index % 10 == 0:
                 time.sleep(5)
 
             await message.answer(card)
@@ -56,6 +64,7 @@ async def get_products(message: types.Message, state: FSMContext) -> None:
         await message.answer("Ничего не найдено.")
 
 
-def register_handler(dp: Dispatcher) -> None:
-    dp.register_message_handler(get_product_name, Text(equals='Поиск Продуктов'))
+def register_handler(dp: dp) -> None:
+    dp.register_message_handler(get_product_name,
+                                Text(equals='Поиск Продуктов'))
     dp.register_message_handler(get_products, state=ProdName.product_name)

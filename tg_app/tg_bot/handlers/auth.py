@@ -1,9 +1,11 @@
-from aiogram.dispatcher import FSMContext
-from aiogram import Dispatcher, types
-from aiogram.dispatcher.filters.state import StatesGroup, State
-from tg_app.tg_bot.bot_config import dp
-from tg_app.database.models.users import CheckUser, CrudUser
 import re
+
+from aiogram import types
+from aiogram.dispatcher import FSMContext
+from aiogram.dispatcher.filters.state import State, StatesGroup
+
+from tg_app.database.models.users import User
+from tg_app.tg_bot.bot_config import dp
 
 
 class RegUsr(StatesGroup):
@@ -13,12 +15,16 @@ class RegUsr(StatesGroup):
 async def get_phone_num(message: types.Message) -> None:
     keyboard = types.ReplyKeyboardMarkup()
     keyboard.add('/back')
-    await message.answer("Введите свой номер телефона в формате '89990018022' или команду /back для отмены.",
-                        reply_markup=keyboard)
+    await message.answer(
+        "Введите свой номер телефона в формате '89997776655'"
+        " или команду /back для отмены.",
+        reply_markup=keyboard
+        )
     await RegUsr.usr_phone.set()
 
 
-async def process_check_phone(message: types.Message, state: FSMContext) -> None:
+async def process_check_phone(message: types.Message,
+                              state: FSMContext) -> None:
     usr_id = message.from_user.id
     keyboard = types.ReplyKeyboardMarkup()
     keyboard.add('/back')
@@ -27,13 +33,17 @@ async def process_check_phone(message: types.Message, state: FSMContext) -> None
     phone = data['phone_input']
     res = re.search(r"^[0-9]+$")
     if res is None or 11 < res.span()[1] > 11 or phone[0] != '8':
-        await message.answer("Неверно указан номер. Повторите попытку или введите команду /back для отмены.", reply_markup=keyboard)
+        await message.answer("Неверно указан номер. Повторите попытку"
+                             " или введите команду /back для отмены.",
+                             reply_markup=keyboard)
         return
-    if not CheckUser().check_by_phone(phone):
-        CrudUser().create_user(usr_id, int(phone))
-    await message.answer("Вы зарегистрированы. Введите команду /back для продолжения.", reply_markup=keyboard)
+    if not User.check_by_phone(phone):
+        User.create(user_id=usr_id, user_phone=int(phone))
+    await message.answer("Вы зарегистрированы."
+                         " Введите команду /back для продолжения.",
+                         reply_markup=keyboard)
 
 
-def register_handler(dp: Dispatcher) -> None:
+def register_handler(dp: dp) -> None:
     dp.register_message_handler(get_phone_num, commands='register')
     dp.register_message_handler(process_check_phone, state=RegUsr.usr_phone)

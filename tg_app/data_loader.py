@@ -1,25 +1,31 @@
+import asyncio
 import json
-from database.models.maindb import Session
+import time
+
 from tg_app.database.models.products import Product
 
 
+path_to_json = "tg_app/products.json"
 
-path_to_json = 'products.json'
 
-def load_data_in_base(session: Session, path: str) -> None: 
-    with open(path, 'r') as file:
+async def write_data(val):
+    await Product.create(**val)
+
+
+async def get_data():
+    with open(path_to_json, 'r') as file:
         data = json.load(file)
+    start = time.time()
+    for pr in data:
+        # val = list(pr.values())
+        await write_data(pr)
+    ft = time.time() - start
+    print(ft)
 
-    for prod in data:
-        values = list(prod.values())
-        session.add(Product(*values))
-    session.commit()
-    session.close()
+async def st():
+    start = time.time()
+    await get_data()
+    ft = time.time() - start
+    print(ft)
 
-
-def main() -> None:
-    load_data_in_base(Session(), path_to_json)
-
-
-if __name__ == '__main__':
-    main()
+asyncio.run(st())

@@ -1,11 +1,17 @@
-from models.maindb import create_db
-from models.users import User
-from models.products import Product
+import asyncio
+
+from tg_app.database.models.maindb import async_db_session
+from tg_app.database.models.products import Product  # noqa: F401
+from tg_app.database.models.users import User  # noqa: F401
 
 
-def start():
-    create_db()
+async def init_base() -> None:
+    await async_db_session.create_all()
+
+
+async def start() -> None:
+    await init_base()
 
 
 if __name__ == '__main__':
-    start()
+    asyncio.run(start())

@@ -1,6 +1,8 @@
 import asyncio
-from tg_app.tg_bot.handlers import auth, product, common
+
 from bot_config import dp
+
+from tg_app.tg_bot.handlers import auth, common, product
 
 
 async def main() -> None:

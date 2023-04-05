@@ -1,47 +1,53 @@
-import json
-from typing import List
+from typing import Literal
+
+from tg_app.database.models.products import Product
 
 
-def get_calc_stats(product: dict, gramm: int) -> dict:
+async def get_calc_stats(product: dict, gramm: int) -> dict:
     stats = ['protein', 'fat', 'carbohydrate', 'kcal']
-    new_prod = product
     res = gramm / 100
+
     for stat in stats:
-        new_prod[stat] = round(float(product[stat]) * res, 3)
-    return new_prod
+        product[stat] = round(float(product[stat]) * res, 3)
+
+    return product
 
 
-def get_filtering(product: dict, name: str, gramm: int) -> dict | None:
+async def filter_by_match(product_name: str,
+                          name: str) -> Literal[True] | None:
     name_words = name.split()
-    product_name = product['name']
-    product_nwords = product_name.split()
+    product_name_words = product_name.split()
     len_name_words = len(name_words)
-    len_prod_words = len(product_nwords)
-
-    if product_nwords[0].lower() != name_words[0].lower():
+    len_prod_name_words = len(product_name_words)
+    if product_name_words[0].lower() != name_words[0].lower():
         return
 
-    if len_prod_words < len_name_words:
+    if len_prod_name_words < len_name_words:
         return
 
-    counter = sum(word in product_nwords for word in name_words)
-    sov = counter/len_prod_words * 100
+    counter = sum(word in product_name_words for word in name_words)
+    result_match = counter/len_prod_name_words * 100
 
-    if len_prod_words == len_name_words and sov <= 50:
+    if len_prod_name_words == len_name_words and result_match <= 50:
         return
 
-    if sov > 40:
-        return get_calc_stats(product, gramm) if gramm != 100 else product
+    if result_match > 40:
+        return True
 
 
-def get_product(name: str, gramm: int) -> List[dict]:
-    with open('tg_app/products.json', 'r') as file:
-        products_list = json.load(file)
+async def find_and_calc(name, gramm=100) -> list[dict] | list:
+    similar_products = await Product.find_similar(name)
 
-    result = []
+    filtered_products = []
 
-    for product in products_list:
-        result_filter = get_filtering(product, name, gramm)
-        if result_filter != None:
-            result.append(result_filter)
-    return result
+    for product in similar_products:
+        product_dict = product.__dict__
+        filter_result = await filter_by_match(product_dict['name'], name)
+
+        if filter_result:
+            filtered_products.append(product_dict)
+    if gramm != 100 and gramm > 0:
+        return [await get_calc_stats(product, gramm)
+                for product in filtered_products]
+    else:
+        return filtered_products

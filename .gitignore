@@ -27,6 +27,9 @@ share/python-wheels/
 *.egg
 MANIFEST
 *.db
+*.sqlite
+.vscode/
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
