@@ -1,0 +1,200 @@
+[
+    {
+        "fat": 0.1,
+        "id": 2454,
+        "name": "Морковь",
+        "kcal": 32,
+        "protein": 1.3,
+        "carbohydrate": 6.9,
+        "url": "https://calorizator.ru/product/vegetable/carrot-1"
+    },
+    {
+        "fat": 0.5,
+        "id": 2455,
+        "name": "Морковь Бондюэль молодая целая",
+        "kcal": 27,
+        "protein": 0.8,
+        "carbohydrate": 5,
+        "url": "https://calorizator.ru/product/vegetable/carrot-7"
+    },
+    {
+        "fat": 0.7,
+        "id": 2456,
+        "name": "Морковь Бондюэль молодая Экстра",
+        "kcal": 25,
+        "protein": 0.5,
+        "carbohydrate": 4.2,
+        "url": "https://calorizator.ru/product/vegetable/carrot-6"
+    },
+    {
+        "fat": 0.3,
+        "id": 2457,
+        "name": "Морковь варёная",
+        "kcal": 25,
+        "protein": 0.8,
+        "carbohydrate": 5,
+        "url": "https://calorizator.ru/product/vegetable/carrot-2"
+    },
+    {
+        "fat": 0.1,
+        "id": 2458,
+        "name": "Морковь жёлтая",
+        "kcal": 33,
+        "protein": 1.3,
+        "carbohydrate": 7.2,
+        "url": "https://calorizator.ru/product/vegetable/carrot-4"
+    },
+    {
+        "fat": 0.1,
+        "id": 2459,
+        "name": "Морковь квашеная",
+        "kcal": 26,
+        "protein": 1.3,
+        "carbohydrate": 4.5,
+        "url": "https://calorizator.ru/product/vegetable/carrot-5"
+    },
+    {
+        "fat": 0.1,
+        "id": 2460,
+        "name": "Морковь консервированная",
+        "kcal": 23,
+        "protein": 0.6,
+        "carbohydrate": 3.6,
+        "url": "https://calorizator.ru/product/vegetable/carrot-11"
+    },
+    {
+        "fat": 10.2,
+        "id": 2461,
+        "name": "Морковь пассерованная",
+        "kcal": 127,
+        "protein": 0.9,
+        "carbohydrate": 8.5,
+        "url": "https://calorizator.ru/product/vegetable/carrot-10"
+    },
+    {
+        "fat": 8.2,
+        "id": 2462,
+        "name": "Морковь по-корейски классическая готовая",
+        "kcal": 121,
+        "protein": 1.1,
+        "carbohydrate": 10.7,
+        "url": "https://calorizator.ru/product/salad/salad-carrot-1"
+    },
+    {
+        "fat": 9,
+        "id": 2463,
+        "name": "Морковь по-корейски острая готовая",
+        "kcal": 137,
+        "protein": 1.2,
+        "carbohydrate": 12.9,
+        "url": "https://calorizator.ru/product/salad/salad-carrot-2"
+    },
+    {
+        "fat": 5,
+        "id": 2464,
+        "name": "Морковь по-корейски с грибами готовая",
+        "kcal": 71,
+        "protein": 1.3,
+        "carbohydrate": 5.7,
+        "url": "https://calorizator.ru/product/salad/salad-carrot-7"
+    },
+    {
+        "fat": 11.4,
+        "id": 2465,
+        "name": "Морковь по-корейски с кальмарами готовая",
+        "kcal": 152,
+        "protein": 5.3,
+        "carbohydrate": 7.7,
+        "url": "https://calorizator.ru/product/salad/salad-carrot-3"
+    },
+    {
+        "fat": 9,
+        "id": 2466,
+        "name": "Морковь по-корейски с капустой готовая",
+        "kcal": 113,
+        "protein": 0,
+        "carbohydrate": 5.3,
+        "url": "https://calorizator.ru/product/salad/salad-carrot-4"
+    },
+    {
+        "fat": 7.1,
+        "id": 2467,
+        "name": "Морковь по-корейски со спаржей готовая",
+        "kcal": 95,
+        "protein": 1.5,
+        "carbohydrate": 6.1,
+        "url": "https://calorizator.ru/product/salad/salad-carrot-5"
+    },
+    {
+        "fat": 11.5,
+        "id": 2468,
+        "name": "Морковь с чесноком и орехами готовая",
+        "kcal": 148,
+        "protein": 2,
+        "carbohydrate": 9.3,
+        "url": "https://calorizator.ru/product/salad/salad-carrot-6"
+    },
+    {
+        "fat": 0.6,
+        "id": 2469,
+        "name": "Морковь сушеная",
+        "kcal": 221,
+        "protein": 7.8,
+        "carbohydrate": 49.2,
+        "url": "https://calorizator.ru/product/vegetable/carrot-3"
+    },
+    {
+        "fat": 0.1,
+        "id": 2470,
+        "name": "Морковь фиолетовая",
+        "kcal": 35,
+        "protein": 1.3,
+        "carbohydrate": 6.9,
+        "url": "https://calorizator.ru/product/vegetable/carrot-13"
+    },
+    {
+        "fat": 0.2,
+        "id": 3700,
+        "name": "Пюре Gerber Морковь",
+        "kcal": 27,
+        "protein": 1,
+        "carbohydrate": 5.1,
+        "url": "https://calorizator.ru/product/baby/gerber-23"
+    },
+    {
+        "fat": 4,
+        "id": 3724,
+        "name": "Пюре Бабушкино Лукошко Кабачок-Морковь Молоко",
+        "kcal": 88,
+        "protein": 2.1,
+        "carbohydrate": 11,
+        "url": "https://calorizator.ru/product/baby/lukoshko-18"
+    },
+    {
+        "fat": 0,
+        "id": 3729,
+        "name": "Пюре Бабушкино Лукошко Морковь Яблоко",
+        "kcal": 48,
+        "protein": 0,
+        "carbohydrate": 12,
+        "url": "https://calorizator.ru/product/baby/lukoshko-21"
+    },
+    {
+        "fat": 0,
+        "id": 3776,
+        "name": "Пюре Спелёнок Морковь с витамином С.",
+        "kcal": 28,
+        "protein": 0,
+        "carbohydrate": 7,
+        "url": "https://calorizator.ru/product/baby/spelenok-3"
+    },
+    {
+        "fat": 3.9,
+        "id": 5338,
+        "name": "Творог Агуша Абрикос и Морковь 3.9%",
+        "kcal": 105,
+        "protein": 7.3,
+        "carbohydrate": 10.2,
+        "url": "https://calorizator.ru/product/baby/agusha-19"
+    }
+]

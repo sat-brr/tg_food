@@ -8,7 +8,8 @@ async def get_calc_stats(product: dict, gramm: int) -> dict:
     res = gramm / 100
 
     for stat in stats:
-        product[stat] = round(float(product[stat]) * res, 3)
+        if product[stat] != 0:
+            product[stat] = round(float(product[stat]) * res, 3)
 
     return product
 
@@ -35,17 +36,32 @@ async def filter_by_match(product_name: str,
         return True
 
 
-async def find_and_calc(name, gramm=100) -> list[dict] | list:
+async def find_similar_products(name):
     similar_products = await Product.find_similar(name)
+    if not similar_products:
+        return
+    similar_products = [x.__dict__ for x in similar_products]
+    similar_products = [
+        ({key: val for key, val in products.items()
+          if key != '_sa_instance_state'})
+        for products in similar_products
+        ]
+    return similar_products
+
+
+async def find_and_calc(name, gramm=100) -> list[dict] | list:
+    similar_products = await find_similar_products(name)
+    if not similar_products:
+        return
 
     filtered_products = []
 
     for product in similar_products:
-        product_dict = product.__dict__
-        filter_result = await filter_by_match(product_dict['name'], name)
+        filter_result = await filter_by_match(product['name'], name)
 
         if filter_result:
-            filtered_products.append(product_dict)
+            filtered_products.append(product)
+
     if gramm != 100 and gramm > 0:
         return [await get_calc_stats(product, gramm)
                 for product in filtered_products]

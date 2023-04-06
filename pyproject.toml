@@ -20,6 +20,10 @@ aiosqlite = "^0.18.0"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.0.0"
+pytest = "^7.2.2"
+pytest-asyncio = "^0.21.0"
+pytest-aiohttp = "^1.0.4"
+aioresponses = "^0.7.4"
 
 [build-system]
 requires = ["poetry-core"]

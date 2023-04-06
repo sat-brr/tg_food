@@ -88,7 +88,7 @@ async def collect_data(page_data: BeautifulSoup) -> dict:
 
 async def get_page_data(session, url, try_connect=0) -> BeautifulSoup | None:
     try:
-        await asyncio.sleep(randint(1,3))
+        await asyncio.sleep(randint(3, 7))
         response = await session.get(url=url, headers=HEADERS)
         response.raise_for_status()
 
@@ -97,7 +97,7 @@ async def get_page_data(session, url, try_connect=0) -> BeautifulSoup | None:
     except Exception as err:
         print(f'Connection error. {err}\n Try again...')
         while try_connect < 3:
-            await asyncio.sleep(randint(1, 3))
+            await asyncio.sleep(randint(3, 7))
             return await get_page_data(session, url, try_connect + 1)
 
 
