@@ -1,0 +1,22 @@
+name: flake8
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name : install python
+        uses: actions/setup-python@v2
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: install poetry
+        run: |
+          curl -sSL https://install.python-poetry.org | python3 -
+      - name: make install  
+        run: |  
+          make install
+      - name: run flake8
+        run: |
+          make lint-app
+          make lint-tests
