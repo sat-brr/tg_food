@@ -8,3 +8,5 @@ run-app:
 	python3 tg_app/tg_bot/bot.py
 tests-cov:
 	poetry run pytest --cov=tg_app --cov-report xml
+install:
+	poetry install
