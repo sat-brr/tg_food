@@ -10,13 +10,13 @@ class CheckField:
     async def check_by_phone(cls, phone) -> Any:
         query = select(cls).where(cls.user_phone == phone)
         result = await async_db_session.execute(query)
-        return result.first()
+        return result.scalars().first()
 
     @classmethod
     async def get_by_tg_id(cls, tg_id) -> Any:
-        query = select(cls).where(cls.user_id == tg_id)
+        query = select(cls).where(cls.tg_id == tg_id)
         results = await async_db_session.execute(query)
-        return results.first()
+        return results.scalars().first()
 
 
 class User(Base, CrudModel, CheckField):

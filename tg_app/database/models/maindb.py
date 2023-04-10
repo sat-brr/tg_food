@@ -10,7 +10,7 @@ Base = declarative_base()
 class AsyncDatabaseSession:
     def __init__(self) -> None:
         self._engine = create_async_engine(
-            "sqlite+aiosqlite:///tg_app/tgfood.sqlite", echo=True)
+            "sqlite+aiosqlite:///tg_app/tgfood.sqlite?charset=utf8", echo=True)
         self._session = sessionmaker(self._engine,
                                      expire_on_commit=False,
                                      class_=AsyncSession)()

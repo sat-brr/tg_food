@@ -3,7 +3,7 @@ from typing import Literal
 from tg_app.database.models.products import Product
 
 
-async def get_calc_stats(product: dict, gramm: int) -> dict:
+async def calc_stats(product: dict, gramm: int) -> dict:
     stats = ['protein', 'fat', 'carbohydrate', 'kcal']
     res = gramm / 100
 
@@ -36,8 +36,8 @@ async def filter_by_match(product_name: str,
         return True
 
 
-async def find_similar_products(name):
-    similar_products = await Product.find_similar(name)
+async def find_similar_products(search_name: str) -> list[dict] | None:
+    similar_products = await Product.find_similar(search_name)
     if not similar_products:
         return
     similar_products = [x.__dict__ for x in similar_products]
@@ -49,21 +49,40 @@ async def find_similar_products(name):
     return similar_products
 
 
-async def find_and_calc(name, gramm=100) -> list[dict] | list:
-    similar_products = await find_similar_products(name)
+async def get_filtered_products(similar_products, search_name):
+    result = []
+    for product in similar_products:
+        filter_result = await filter_by_match(product['name'], search_name)
+        if filter_result:
+            result.append(product)
+    return result
+
+
+async def parse_message(usr_message: str):
+    message = usr_message.split(',')
+    gram = 100
+    if 1 < len(message) < 3:
+        try:
+            gram = int(message[1])
+        except Exception:
+            pass
+
+    return message[0].capitalize(), gram
+
+
+async def find_and_calc(usr_message: str):
+    search_name, gram = await parse_message(usr_message)
+    similar_products = await find_similar_products(search_name)
+
     if not similar_products:
         return
 
-    filtered_products = []
+    filtered_products = await get_filtered_products(similar_products,
+                                                    search_name)
 
-    for product in similar_products:
-        filter_result = await filter_by_match(product['name'], name)
+    if gram == 100 or gram <= 0:
+        return filtered_products, gram
 
-        if filter_result:
-            filtered_products.append(product)
-
-    if gramm != 100 and gramm > 0:
-        return [await get_calc_stats(product, gramm)
-                for product in filtered_products]
-    else:
-        return filtered_products
+    prods_with_new_stats = [await calc_stats(prod, gram)
+                            for prod in filtered_products]
+    return prods_with_new_stats, gram

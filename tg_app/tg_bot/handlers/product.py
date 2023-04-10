@@ -31,22 +31,11 @@ async def get_products(message: types.Message, state: FSMContext) -> None:
     await state.update_data(product_name=message.text)
     keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
     keyboard.add('/back')
-    mes = message.text.split(',')
-    gram = 100
+
     await message.answer('Пожалуйста, подождите...', reply_markup=keyboard)
 
-    if 1 < len(mes) < 3:
-        try:
-            gram = int(mes[1])
-        except Exception:
-            await message.answer("Что то пошло не так."
-                                 " Будет выведена информация на 100г")
-
-    if len(mes) > 2:
-        await message.answer("Укажите одно число после запятой")
-        return
-
-    if product_list := find_and_calc(mes[0].strip(), gram):
+    product_list, gram = await find_and_calc(message.text)
+    if product_list:
         for index, prod in enumerate(product_list):
 
             card = f'{hlink(prod.get("name"), prod.get("url"))}\n' \
@@ -56,7 +45,7 @@ async def get_products(message: types.Message, state: FSMContext) -> None:
                 f'{hbold("Углеводы: ")}{prod["carbohydrate"]}\n' \
                 f'{hbold("Ккал: ")}{prod["kcal"]}\n'
 
-            if index % 10 == 0:
+            if index % 15 == 0:
                 time.sleep(5)
 
             await message.answer(card)

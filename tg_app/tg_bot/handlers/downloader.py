@@ -1,6 +1,3 @@
-from aiogram.dispatcher.filters import Command
-from aiogram.dispatcher.filters import Text
-from aiogram.dispatcher import FSMContext
 from aiogram import types
 from tg_app.tg_bot.bot_config import dp
 from tg_app.database.models.users import User

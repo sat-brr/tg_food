@@ -6,7 +6,7 @@ from tg_app.tg_bot.bot_config import dp
 
 
 async def start(message: types.Message) -> None:
-    if User.get_by_tg_id(message.from_user.id):
+    if await User.get_by_tg_id(message.from_user.id):
         comnds = ['Поиск Продуктов']
         keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
         keyboard.add(*comnds)
@@ -24,7 +24,7 @@ async def back(message: types.Message, state: FSMContext) -> None:
     keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
     keyboard.add('Поиск Продуктов')
     await state.finish()
-    if User.get_by_tg_id(message.from_user.id):
+    if await User.get_by_tg_id(message.from_user.id):
         await message.answer('Выберите категорию', reply_markup=keyboard)
     else:
         await message.answer('Введите команду /start',

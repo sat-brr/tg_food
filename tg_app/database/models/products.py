@@ -15,9 +15,9 @@ class CheckName:
 
     @classmethod
     async def find_similar(cls, name: str) -> Any:
-        query = select(cls).filter(cls.name.contains(name))
+        query = select(cls).filter((cls.name).contains(name))
         result = await async_db_session.execute(query)
-        return result.scalars()
+        return result.scalars().all()
 
 
 class Product(Base, CrudModel, CheckName):

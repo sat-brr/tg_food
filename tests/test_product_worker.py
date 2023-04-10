@@ -36,11 +36,15 @@ async def not_found_mockreturn(*args, **kwargs) -> None:
 
 
 @pytest.mark.asyncio
-@pytest.mark.parametrize('find_name', ['Морковь', 'Яблоко'])
+@pytest.mark.parametrize('find_name', ['Морковь', 'Яблоко', '123'])
 async def test_find_and_calc(monkeypatch: pytest.MonkeyPatch,
                              find_name: str) -> None:
     if find_name == 'Морковь':
-        expected_result = get_filtered_products_list(TEST_FILTERED_PROD_LIST)
+        expected_result = (
+            get_filtered_products_list(TEST_FILTERED_PROD_LIST),
+            100
+            )
+
         monkeypatch.setattr(product_worker,
                             'find_similar_products', ok_mockreturn)
     else:
@@ -53,12 +57,12 @@ async def test_find_and_calc(monkeypatch: pytest.MonkeyPatch,
 
 
 @pytest.mark.asyncio
-async def test_get_calc_stats():
+async def test_get_calc_stats() -> None:
     products_list = get_filtered_products_list(TEST_FILTERED_PROD_LIST)
     expected_result = get_calc_prod_list(TEST_CALC_PROD_LIST)
     result = []
     for product in products_list:
-        res = await product_worker.get_calc_stats(product, 150)
+        res = await product_worker.calc_stats(product, 150)
         result.append(res)
 
     assert result == expected_result

@@ -39,20 +39,20 @@ def read_json(path: str) -> List[dict]:
 
 @pytest.mark.asyncio
 @pytest.mark.parametrize("status", BAD_STATUS_CODE)
-async def test_bad_get_page_data(status: int) -> None:
+async def test_bad_get_page_soup(status: int) -> None:
     session = aiohttp.ClientSession()
     with aioresponses() as mock:
         mock.get(TEST_URL, status=status)
-        response = await scrabber.get_page_data(session, TEST_URL)
+        response = await scrabber.get_page_soup(session, TEST_URL)
         assert not response
 
 
 @pytest.mark.asyncio
-async def test_ok_get_page_data() -> None:
+async def test_ok_get_page_soup() -> None:
     session = aiohttp.ClientSession()
     with aioresponses() as mock:
         mock.get(TEST_URL, status=200, body='Well Done!')
-        response = await scrabber.get_page_data(session, TEST_URL)
+        response = await scrabber.get_page_soup(session, TEST_URL)
         assert response == BeautifulSoup('Well Done!', 'html.parser')
 
 
@@ -61,10 +61,10 @@ async def test_ok_get_page_data() -> None:
     "test_page, result_path",
     [(TEST_FIRST_PAGE, FIRST_PAGE_JSON), (TEST_SECOND_PAGE, SECOND_PAGE_JSON)]
 )
-async def test_collect_data(test_page: str, result_path: str) -> None:
+async def test_collect_products_data(test_page: str, result_path: str) -> None:
     data = get_soup_page(test_page)
     expected_result = read_json(result_path)
-    result = await scrabber.collect_data(data)
+    result = await scrabber.collect_products_data(data)
     assert result == expected_result
 
 
@@ -81,7 +81,7 @@ async def test_write_data(monkeypatch: pytest.MonkeyPatch) -> None:
 
 
 @pytest.mark.asyncio
-async def test_main_func(monkeypatch: pytest.MonkeyPatch) -> None:
+async def test_start_scrabber(monkeypatch: pytest.MonkeyPatch) -> None:
     page1 = get_html_page(TEST_FIRST_PAGE)
     page2 = get_html_page(TEST_SECOND_PAGE)
     with aioresponses() as mock:
@@ -92,5 +92,5 @@ async def test_main_func(monkeypatch: pytest.MonkeyPatch) -> None:
         monkeypatch.setattr(scrabber, 'write_data', mockreturn)
         mock.get(PEREHVAT1, status=200, body=page1)
         mock.get(PEREHVAT2, status=200, body=page2)
-        result = await scrabber.main()
+        result = await scrabber.parse_and_write()
         assert result

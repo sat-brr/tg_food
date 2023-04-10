@@ -9,7 +9,7 @@ async def main() -> None:
     common.register_handler(dp)
     auth.register_handler(dp)
     product.register_handler(dp)
-    await dp.start_polling(dp)
+    await dp.start_polling(dp, reset_webhook=True)
 
 
 if __name__ == '__main__':
