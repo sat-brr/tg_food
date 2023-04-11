@@ -5,7 +5,8 @@
         "fat": "2.0",
         "carbohydrate": "0.0",
         "kcal": "88",
-        "url": "https://calorizator.ru/product/sea/carp-9"
+        "url": "https://calorizator.ru/product/sea/carp-9",
+        "search_field": "АМУР ЧЁРНЫЙ"
     },
     {
         "name": "Ананас",
@@ -13,7 +14,8 @@
         "fat": "0.2",
         "carbohydrate": "10.6",
         "kcal": "49",
-        "url": "https://calorizator.ru/product/fruit/pineapple"
+        "url": "https://calorizator.ru/product/fruit/pineapple",
+        "search_field": "АНАНАС"
     },
     {
         "name": "Ананас консервированный",
@@ -21,7 +23,8 @@
         "fat": "0.1",
         "carbohydrate": "14.0",
         "kcal": "57",
-        "url": "https://calorizator.ru/product/fruit/pineapple-2"
+        "url": "https://calorizator.ru/product/fruit/pineapple-2",
+        "search_field": "АНАНАС КОНСЕРВИРОВАННЫЙ"
     },
     {
         "name": "Ананасовый компот",
@@ -29,7 +32,8 @@
         "fat": "0.1",
         "carbohydrate": "14.0",
         "kcal": "71",
-        "url": "https://calorizator.ru/product/juice/compote-12"
+        "url": "https://calorizator.ru/product/juice/compote-12",
+        "search_field": "АНАНАСОВЫЙ КОМПОТ"
     },
     {
         "name": "Ананасовый нектар",
@@ -37,7 +41,8 @@
         "fat": "0.0",
         "carbohydrate": "12.9",
         "kcal": "54",
-        "url": "https://calorizator.ru/product/juice/nectar-1"
+        "url": "https://calorizator.ru/product/juice/nectar-1",
+        "search_field": "АНАНАСОВЫЙ НЕКТАР"
     },
     {
         "name": "Ананасовый сок",
@@ -45,7 +50,8 @@
         "fat": "0.1",
         "carbohydrate": "11.4",
         "kcal": "48",
-        "url": "https://calorizator.ru/product/juice/juice-19"
+        "url": "https://calorizator.ru/product/juice/juice-19",
+        "search_field": "АНАНАСОВЫЙ СОК"
     },
     {
         "name": "Ангурия (Антильский огурец)",
@@ -53,7 +59,8 @@
         "fat": "1.3",
         "carbohydrate": "7.6",
         "kcal": "44",
-        "url": "https://calorizator.ru/product/vegetable/anguria"
+        "url": "https://calorizator.ru/product/vegetable/anguria",
+        "search_field": "АНГУРИЯ (АНТИЛЬСКИЙ ОГУРЕЦ)"
     },
     {
         "name": "Анис",
@@ -61,7 +68,8 @@
         "fat": "15.9",
         "carbohydrate": "35.4",
         "kcal": "337",
-        "url": "https://calorizator.ru/product/raw/anise"
+        "url": "https://calorizator.ru/product/raw/anise",
+        "search_field": "АНИС"
     },
     {
         "name": "Антрекот",
@@ -69,7 +77,8 @@
         "fat": "31.2",
         "carbohydrate": "1.7",
         "kcal": "396",
-        "url": "https://calorizator.ru/product/beef/steak-1"
+        "url": "https://calorizator.ru/product/beef/steak-1",
+        "search_field": "АНТРЕКОТ"
     },
     {
         "name": "Антрекот из говядины",
@@ -77,7 +86,8 @@
         "fat": "11.2",
         "carbohydrate": "0.0",
         "kcal": "220",
-        "url": "https://calorizator.ru/product/beef/steak-3"
+        "url": "https://calorizator.ru/product/beef/steak-3",
+        "search_field": "АНТРЕКОТ ИЗ ГОВЯДИНЫ"
     },
     {
         "name": "Антрекот из свинины",
@@ -85,7 +95,8 @@
         "fat": "9.8",
         "carbohydrate": "0.0",
         "kcal": "210",
-        "url": "https://calorizator.ru/product/beef/steak-4"
+        "url": "https://calorizator.ru/product/beef/steak-4",
+        "search_field": "АНТРЕКОТ ИЗ СВИНИНЫ"
     },
     {
         "name": "Анчоус атлантический",
@@ -93,7 +104,8 @@
         "fat": "6.1",
         "carbohydrate": "0.0",
         "kcal": "135",
-        "url": "https://calorizator.ru/product/sea/anchovy-2"
+        "url": "https://calorizator.ru/product/sea/anchovy-2",
+        "search_field": "АНЧОУС АТЛАНТИЧЕСКИЙ"
     },
     {
         "name": "Анчоусная паста",
@@ -101,7 +113,8 @@
         "fat": "16.0",
         "carbohydrate": "4.0",
         "kcal": "280",
-        "url": "https://calorizator.ru/product/sea/anchovy-4"
+        "url": "https://calorizator.ru/product/sea/anchovy-4",
+        "search_field": "АНЧОУСНАЯ ПАСТА"
     },
     {
         "name": "Анчоусы консервированные",
@@ -109,7 +122,8 @@
         "fat": "6.1",
         "carbohydrate": "0.0",
         "kcal": "135",
-        "url": "https://calorizator.ru/product/sea/anchovy-3"
+        "url": "https://calorizator.ru/product/sea/anchovy-3",
+        "search_field": "АНЧОУСЫ КОНСЕРВИРОВАННЫЕ"
     },
     {
         "name": "Аньолотти",
@@ -117,7 +131,8 @@
         "fat": "1.1",
         "carbohydrate": "71.5",
         "kcal": "344",
-        "url": "https://calorizator.ru/product/meal/agnolotti"
+        "url": "https://calorizator.ru/product/meal/agnolotti",
+        "search_field": "АНЬОЛОТТИ"
     },
     {
         "name": "Апельсин",
@@ -125,7 +140,8 @@
         "fat": "0.2",
         "carbohydrate": "8.1",
         "kcal": "36",
-        "url": "https://calorizator.ru/product/fruit/orange"
+        "url": "https://calorizator.ru/product/fruit/orange",
+        "search_field": "АПЕЛЬСИН"
     },
     {
         "name": "Апельсин маринованный",
@@ -133,7 +149,8 @@
         "fat": "0.0",
         "carbohydrate": "8.9",
         "kcal": "37",
-        "url": "https://calorizator.ru/product/fruit/orange-2"
+        "url": "https://calorizator.ru/product/fruit/orange-2",
+        "search_field": "АПЕЛЬСИН МАРИНОВАННЫЙ"
     },
     {
         "name": "Апельсиновый нектар",
@@ -141,7 +158,8 @@
         "fat": "0.0",
         "carbohydrate": "10.1",
         "kcal": "43",
-        "url": "https://calorizator.ru/product/juice/nectar-2"
+        "url": "https://calorizator.ru/product/juice/nectar-2",
+        "search_field": "АПЕЛЬСИНОВЫЙ НЕКТАР"
     },
     {
         "name": "Апельсиновый сок",
@@ -149,7 +167,8 @@
         "fat": "0.2",
         "carbohydrate": "8.1",
         "kcal": "36",
-        "url": "https://calorizator.ru/product/juice/juice-3"
+        "url": "https://calorizator.ru/product/juice/juice-3",
+        "search_field": "АПЕЛЬСИНОВЫЙ СОК"
     },
     {
         "name": "Арахис",
@@ -157,7 +176,8 @@
         "fat": "45.2",
         "carbohydrate": "9.9",
         "kcal": "622",
-        "url": "https://calorizator.ru/product/nut/groundnut"
+        "url": "https://calorizator.ru/product/nut/groundnut",
+        "search_field": "АРАХИС"
     },
     {
         "name": "Арахис Джаз жареный соленый",
@@ -165,7 +185,8 @@
         "fat": "52.0",
         "carbohydrate": "17.0",
         "kcal": "640",
-        "url": "https://calorizator.ru/product/nut/groundnut-1"
+        "url": "https://calorizator.ru/product/nut/groundnut-1",
+        "search_field": "АРАХИС ДЖАЗ ЖАРЕНЫЙ СОЛЕНЫЙ"
     },
     {
         "name": "Арахис Степановна обжаренный соленый",
@@ -173,7 +194,8 @@
         "fat": "50.2",
         "carbohydrate": "5.7",
         "kcal": "590",
-        "url": "https://calorizator.ru/product/nut/groundnut-2"
+        "url": "https://calorizator.ru/product/nut/groundnut-2",
+        "search_field": "АРАХИС СТЕПАНОВНА ОБЖАРЕННЫЙ СОЛЕНЫЙ"
     },
     {
         "name": "Арахис сушеный",
@@ -181,7 +203,8 @@
         "fat": "50.2",
         "carbohydrate": "10.8",
         "kcal": "611",
-        "url": "https://calorizator.ru/product/nut/groundnut-dried"
+        "url": "https://calorizator.ru/product/nut/groundnut-dried",
+        "search_field": "АРАХИС СУШЕНЫЙ"
     },
     {
         "name": "Арбуз",
@@ -189,7 +212,8 @@
         "fat": "0.1",
         "carbohydrate": "5.8",
         "kcal": "25",
-        "url": "https://calorizator.ru/product/fruit/watermelon"
+        "url": "https://calorizator.ru/product/fruit/watermelon",
+        "search_field": "АРБУЗ"
     },
     {
         "name": "Арбуз консервированный",
@@ -197,7 +221,8 @@
         "fat": "0.1",
         "carbohydrate": "9.0",
         "kcal": "37",
-        "url": "https://calorizator.ru/product/fruit/watermelon-2"
+        "url": "https://calorizator.ru/product/fruit/watermelon-2",
+        "search_field": "АРБУЗ КОНСЕРВИРОВАННЫЙ"
     },
     {
         "name": "Арбузный сок",
@@ -205,7 +230,8 @@
         "fat": "0.1",
         "carbohydrate": "5.9",
         "kcal": "38",
-        "url": "https://calorizator.ru/product/juice/juice-36"
+        "url": "https://calorizator.ru/product/juice/juice-36",
+        "search_field": "АРБУЗНЫЙ СОК"
     },
     {
         "name": "Аргентина",
@@ -213,7 +239,8 @@
         "fat": "2.0",
         "carbohydrate": "0.0",
         "kcal": "88",
-        "url": "https://calorizator.ru/product/sea/argentina-1"
+        "url": "https://calorizator.ru/product/sea/argentina-1",
+        "search_field": "АРГЕНТИНА"
     },
     {
         "name": "Арракача",
@@ -221,7 +248,8 @@
         "fat": "0.1",
         "carbohydrate": "17.1",
         "kcal": "60",
-        "url": "https://calorizator.ru/product/vegetable/arracacha"
+        "url": "https://calorizator.ru/product/vegetable/arracacha",
+        "search_field": "АРРАКАЧА"
     },
     {
         "name": "Артишок",
@@ -229,7 +257,8 @@
         "fat": "0.1",
         "carbohydrate": "6.0",
         "kcal": "28",
-        "url": "https://calorizator.ru/product/vegetable/artichoke"
+        "url": "https://calorizator.ru/product/vegetable/artichoke",
+        "search_field": "АРТИШОК"
     },
     {
         "name": "Асафетида",
@@ -237,7 +266,8 @@
         "fat": "0.1",
         "carbohydrate": "0.1",
         "kcal": "",
-        "url": "https://calorizator.ru/product/raw/asafoetida"
+        "url": "https://calorizator.ru/product/raw/asafoetida",
+        "search_field": "АСАФЕТИДА"
     },
     {
         "name": "Ассорти Бондюэль из сладкого перца",
@@ -245,7 +275,8 @@
         "fat": "0.2",
         "carbohydrate": "4.8",
         "kcal": "25",
-        "url": "https://calorizator.ru/product/vegetable/mix-3"
+        "url": "https://calorizator.ru/product/vegetable/mix-3",
+        "search_field": "АССОРТИ БОНДЮЭЛЬ ИЗ СЛАДКОГО ПЕРЦА"
     },
     {
         "name": "Ассорти Бондюэль из фасоли с ананасами в соусе Карри",
@@ -253,7 +284,8 @@
         "fat": "1.1",
         "carbohydrate": "9.3",
         "kcal": "62",
-        "url": "https://calorizator.ru/product/vegetable/mix-1"
+        "url": "https://calorizator.ru/product/vegetable/mix-1",
+        "search_field": "АССОРТИ БОНДЮЭЛЬ ИЗ ФАСОЛИ С АНАНАСАМИ В СОУСЕ КАРРИ"
     },
     {
         "name": "Ассорти Бондюэль из цветной капусты, романеско и брокколи",
@@ -261,7 +293,8 @@
         "fat": "2.7",
         "carbohydrate": "8.6",
         "kcal": "66",
-        "url": "https://calorizator.ru/product/vegetable/mix-2"
+        "url": "https://calorizator.ru/product/vegetable/mix-2",
+        "search_field": "АССОРТИ БОНДЮЭЛЬ ИЗ ЦВЕТНОЙ КАПУСТЫ, РОМАНЕСКО И БРОККОЛИ"
     },
     {
         "name": "Ассорти МеленЪ Кабачки Черри Огурцы маринованные",
@@ -269,7 +302,8 @@
         "fat": "0.0",
         "carbohydrate": "4.0",
         "kcal": "15",
-        "url": "https://calorizator.ru/product/vegetable/assorti-melen-1"
+        "url": "https://calorizator.ru/product/vegetable/assorti-melen-1",
+        "search_field": "АССОРТИ МЕЛЕНЪ КАБАЧКИ ЧЕРРИ ОГУРЦЫ МАРИНОВАННЫЕ"
     },
     {
         "name": "Ассорти МеленЪ Патиссоны Черри Огурцы маринованные",
@@ -277,7 +311,8 @@
         "fat": "0.0",
         "carbohydrate": "4.0",
         "kcal": "15",
-        "url": "https://calorizator.ru/product/vegetable/assorti-melen-2"
+        "url": "https://calorizator.ru/product/vegetable/assorti-melen-2",
+        "search_field": "АССОРТИ МЕЛЕНЪ ПАТИССОНЫ ЧЕРРИ ОГУРЦЫ МАРИНОВАННЫЕ"
     },
     {
         "name": "Ассорти мясное",
@@ -285,7 +320,8 @@
         "fat": "23.5",
         "carbohydrate": "0.9",
         "kcal": "264",
-        "url": "https://calorizator.ru/product/salad/salad-37"
+        "url": "https://calorizator.ru/product/salad/salad-37",
+        "search_field": "АССОРТИ МЯСНОЕ"
     },
     {
         "name": "Ассорти овощное",
@@ -293,7 +329,8 @@
         "fat": "0.1",
         "carbohydrate": "3.3",
         "kcal": "19",
-        "url": "https://calorizator.ru/product/salad/salad-39"
+        "url": "https://calorizator.ru/product/salad/salad-39",
+        "search_field": "АССОРТИ ОВОЩНОЕ"
     },
     {
         "name": "Ассорти рыбное",
@@ -301,7 +338,8 @@
         "fat": "4.7",
         "carbohydrate": "0.5",
         "kcal": "78",
-        "url": "https://calorizator.ru/product/salad/salad-38"
+        "url": "https://calorizator.ru/product/salad/salad-38",
+        "search_field": "АССОРТИ РЫБНОЕ"
     },
     {
         "name": "Ацерола",
@@ -309,7 +347,8 @@
         "fat": "0.3",
         "carbohydrate": "7.7",
         "kcal": "32",
-        "url": "https://calorizator.ru/product/fruit/acerola"
+        "url": "https://calorizator.ru/product/fruit/acerola",
+        "search_field": "АЦЕРОЛА"
     },
     {
         "name": "Ацидофилин 0.1%",
@@ -317,7 +356,8 @@
         "fat": "0.1",
         "carbohydrate": "3.9",
         "kcal": "31",
-        "url": "https://calorizator.ru/product/milk/milk-acidophilus-1"
+        "url": "https://calorizator.ru/product/milk/milk-acidophilus-1",
+        "search_field": "АЦИДОФИЛИН 0.1%"
     },
     {
         "name": "Ацидофилин 1%",
@@ -325,7 +365,8 @@
         "fat": "1.0",
         "carbohydrate": "4.0",
         "kcal": "40",
-        "url": "https://calorizator.ru/product/milk/milk-acidophilus-2"
+        "url": "https://calorizator.ru/product/milk/milk-acidophilus-2",
+        "search_field": "АЦИДОФИЛИН 1%"
     },
     {
         "name": "Ацидофилин 3.2%",
@@ -333,7 +374,8 @@
         "fat": "3.2",
         "carbohydrate": "3.8",
         "kcal": "57",
-        "url": "https://calorizator.ru/product/milk/milk-acidophilus-3"
+        "url": "https://calorizator.ru/product/milk/milk-acidophilus-3",
+        "search_field": "АЦИДОФИЛИН 3.2%"
     },
     {
         "name": "Ацидофилин 3.2% сладкий",
@@ -341,7 +383,8 @@
         "fat": "3.2",
         "carbohydrate": "8.6",
         "kcal": "77",
-        "url": "https://calorizator.ru/product/milk/milk-acidophilus-4"
+        "url": "https://calorizator.ru/product/milk/milk-acidophilus-4",
+        "search_field": "АЦИДОФИЛИН 3.2% СЛАДКИЙ"
     },
     {
         "name": "Ацидофилин Останкинский 2.5%",
@@ -349,7 +392,8 @@
         "fat": "2.5",
         "carbohydrate": "4.2",
         "kcal": "51",
-        "url": "https://calorizator.ru/product/milk/ostankinsky-2"
+        "url": "https://calorizator.ru/product/milk/ostankinsky-2",
+        "search_field": "АЦИДОФИЛИН ОСТАНКИНСКИЙ 2.5%"
     },
     {
         "name": "Баветте",
@@ -357,7 +401,8 @@
         "fat": "1.3",
         "carbohydrate": "70.5",
         "kcal": "351",
-        "url": "https://calorizator.ru/product/meal/bavette"
+        "url": "https://calorizator.ru/product/meal/bavette",
+        "search_field": "БАВЕТТЕ"
     },
     {
         "name": "Багель",
@@ -365,7 +410,8 @@
         "fat": "9.4",
         "carbohydrate": "55.5",
         "kcal": "339",
-        "url": "https://calorizator.ru/product/bread/bagele"
+        "url": "https://calorizator.ru/product/bread/bagele",
+        "search_field": "БАГЕЛЬ"
     },
     {
         "name": "Багет",
@@ -373,7 +419,8 @@
         "fat": "2.9",
         "carbohydrate": "51.4",
         "kcal": "262",
-        "url": "https://calorizator.ru/product/bread/bread-63"
+        "url": "https://calorizator.ru/product/bread/bread-63",
+        "search_field": "БАГЕТ"
     },
     {
         "name": "Багет мини с отрубями",
@@ -381,7 +428,8 @@
         "fat": "0.8",
         "carbohydrate": "39.1",
         "kcal": "189",
-        "url": "https://calorizator.ru/product/bread/bread-120"
+        "url": "https://calorizator.ru/product/bread/bread-120",
+        "search_field": "БАГЕТ МИНИ С ОТРУБЯМИ"
     },
     {
         "name": "Багет чесночный",
@@ -389,7 +437,8 @@
         "fat": "15.0",
         "carbohydrate": "49.0",
         "kcal": "360",
-        "url": "https://calorizator.ru/product/bread/bread-109"
+        "url": "https://calorizator.ru/product/bread/bread-109",
+        "search_field": "БАГЕТ ЧЕСНОЧНЫЙ"
     },
     {
         "name": "Бадьян",
@@ -397,7 +446,8 @@
         "fat": "16.0",
         "carbohydrate": "50.0",
         "kcal": "337",
-        "url": "https://calorizator.ru/product/raw/badian"
+        "url": "https://calorizator.ru/product/raw/badian",
+        "search_field": "БАДЬЯН"
     },
     {
         "name": "Базилик свежий",
@@ -405,7 +455,8 @@
         "fat": "0.6",
         "carbohydrate": "4.3",
         "kcal": "27",
-        "url": "https://calorizator.ru/product/raw/basil-1"
+        "url": "https://calorizator.ru/product/raw/basil-1",
+        "search_field": "БАЗИЛИК СВЕЖИЙ"
     },
     {
         "name": "Базилик сушеный",
@@ -413,7 +464,8 @@
         "fat": "4.0",
         "carbohydrate": "61.0",
         "kcal": "251",
-        "url": "https://calorizator.ru/product/raw/basil-2"
+        "url": "https://calorizator.ru/product/raw/basil-2",
+        "search_field": "БАЗИЛИК СУШЕНЫЙ"
     },
     {
         "name": "Баклажан",
@@ -421,7 +473,8 @@
         "fat": "0.1",
         "carbohydrate": "4.5",
         "kcal": "24",
-        "url": "https://calorizator.ru/product/vegetable/aubergine"
+        "url": "https://calorizator.ru/product/vegetable/aubergine",
+        "search_field": "БАКЛАЖАН"
     },
     {
         "name": "Баклажан белый",
@@ -429,7 +482,8 @@
         "fat": "0.1",
         "carbohydrate": "4.6",
         "kcal": "24",
-        "url": "https://calorizator.ru/product/vegetable/aubergine-7"
+        "url": "https://calorizator.ru/product/vegetable/aubergine-7",
+        "search_field": "БАКЛАЖАН БЕЛЫЙ"
     },
     {
         "name": "Баклажан замороженный",
@@ -437,7 +491,8 @@
         "fat": "0.1",
         "carbohydrate": "5.2",
         "kcal": "27",
-        "url": "https://calorizator.ru/product/vegetable/aubergine-1"
+        "url": "https://calorizator.ru/product/vegetable/aubergine-1",
+        "search_field": "БАКЛАЖАН ЗАМОРОЖЕННЫЙ"
     },
     {
         "name": "Баклажан консервированный",
@@ -445,7 +500,8 @@
         "fat": "0.7",
         "carbohydrate": "7.3",
         "kcal": "49",
-        "url": "https://calorizator.ru/product/vegetable/aubergine-4"
+        "url": "https://calorizator.ru/product/vegetable/aubergine-4",
+        "search_field": "БАКЛАЖАН КОНСЕРВИРОВАННЫЙ"
     },
     {
         "name": "Баклажанная икра консервированная",
@@ -453,7 +509,8 @@
         "fat": "13.3",
         "carbohydrate": "5.1",
         "kcal": "148",
-        "url": "https://calorizator.ru/product/vegetable/aubergine-3"
+        "url": "https://calorizator.ru/product/vegetable/aubergine-3",
+        "search_field": "БАКЛАЖАННАЯ ИКРА КОНСЕРВИРОВАННАЯ"
     },
     {
         "name": "Баклажанная икра свежая",
@@ -461,7 +518,8 @@
         "fat": "7.0",
         "carbohydrate": "6.0",
         "kcal": "90",
-        "url": "https://calorizator.ru/product/vegetable/aubergine-2"
+        "url": "https://calorizator.ru/product/vegetable/aubergine-2",
+        "search_field": "БАКЛАЖАННАЯ ИКРА СВЕЖАЯ"
     },
     {
         "name": "Баклажаны 4 сезона запечённые порционные",
@@ -469,7 +527,8 @@
         "fat": "0.2",
         "carbohydrate": "8.9",
         "kcal": "48",
-        "url": "https://calorizator.ru/product/vegetable/aubergine-6"
+        "url": "https://calorizator.ru/product/vegetable/aubergine-6",
+        "search_field": "БАКЛАЖАНЫ 4 СЕЗОНА ЗАПЕЧЁННЫЕ ПОРЦИОННЫЕ"
     },
     {
         "name": "Баклажаны 4 сезона нарезанные",
@@ -477,7 +536,8 @@
         "fat": "0.1",
         "carbohydrate": "5.2",
         "kcal": "27",
-        "url": "https://calorizator.ru/product/vegetable/aubergine-5"
+        "url": "https://calorizator.ru/product/vegetable/aubergine-5",
+        "search_field": "БАКЛАЖАНЫ 4 СЕЗОНА НАРЕЗАННЫЕ"
     },
     {
         "name": "Баклажаны по-корейски готовые",
@@ -485,7 +545,8 @@
         "fat": "9.0",
         "carbohydrate": "6.5",
         "kcal": "109",
-        "url": "https://calorizator.ru/product/salad/salad-2"
+        "url": "https://calorizator.ru/product/salad/salad-2",
+        "search_field": "БАКЛАЖАНЫ ПО-КОРЕЙСКИ ГОТОВЫЕ"
     },
     {
         "name": "Баклажаны фаршированные готовые",
@@ -493,7 +554,8 @@
         "fat": "6.1",
         "carbohydrate": "7.3",
         "kcal": "79",
-        "url": "https://calorizator.ru/product/salad/salad-3"
+        "url": "https://calorizator.ru/product/salad/salad-3",
+        "search_field": "БАКЛАЖАНЫ ФАРШИРОВАННЫЕ ГОТОВЫЕ"
     },
     {
         "name": "Бамбук листья",
@@ -501,7 +563,8 @@
         "fat": "0.0",
         "carbohydrate": "4.0",
         "kcal": "32",
-        "url": "https://calorizator.ru/product/vegetable/bamboo-4"
+        "url": "https://calorizator.ru/product/vegetable/bamboo-4",
+        "search_field": "БАМБУК ЛИСТЬЯ"
     },
     {
         "name": "Бамбук побеги вареные",
@@ -509,7 +572,8 @@
         "fat": "0.2",
         "carbohydrate": "0.9",
         "kcal": "12",
-        "url": "https://calorizator.ru/product/vegetable/bamboo-2"
+        "url": "https://calorizator.ru/product/vegetable/bamboo-2",
+        "search_field": "БАМБУК ПОБЕГИ ВАРЕНЫЕ"
     },
     {
         "name": "Бамбук побеги консервированные",
@@ -517,7 +581,8 @@
         "fat": "0.4",
         "carbohydrate": "1.8",
         "kcal": "19",
-        "url": "https://calorizator.ru/product/vegetable/bamboo-3"
+        "url": "https://calorizator.ru/product/vegetable/bamboo-3",
+        "search_field": "БАМБУК ПОБЕГИ КОНСЕРВИРОВАННЫЕ"
     },
     {
         "name": "Бамбук побеги сырые",
@@ -525,7 +590,8 @@
         "fat": "0.3",
         "carbohydrate": "3.0",
         "kcal": "27",
-        "url": "https://calorizator.ru/product/vegetable/bamboo-1"
+        "url": "https://calorizator.ru/product/vegetable/bamboo-1",
+        "search_field": "БАМБУК ПОБЕГИ СЫРЫЕ"
     },
     {
         "name": "Бамия",
@@ -533,7 +599,8 @@
         "fat": "0.1",
         "carbohydrate": "3.8",
         "kcal": "25",
-        "url": "https://calorizator.ru/product/vegetable/bamiya"
+        "url": "https://calorizator.ru/product/vegetable/bamiya",
+        "search_field": "БАМИЯ"
     },
     {
         "name": "Бамия 4 сезона",
@@ -541,7 +608,8 @@
         "fat": "0.1",
         "carbohydrate": "8.0",
         "kcal": "23",
-        "url": "https://calorizator.ru/product/vegetable/bamiya-2"
+        "url": "https://calorizator.ru/product/vegetable/bamiya-2",
+        "search_field": "БАМИЯ 4 СЕЗОНА"
     },
     {
         "name": "Банан",
@@ -549,7 +617,8 @@
         "fat": "0.2",
         "carbohydrate": "21.8",
         "kcal": "95",
-        "url": "https://calorizator.ru/product/fruit/banana"
+        "url": "https://calorizator.ru/product/fruit/banana",
+        "search_field": "БАНАН"
     },
     {
         "name": "Банановый сок",
@@ -557,7 +626,8 @@
         "fat": "0.0",
         "carbohydrate": "12.0",
         "kcal": "48",
-        "url": "https://calorizator.ru/product/juice/juice-37"
+        "url": "https://calorizator.ru/product/juice/juice-37",
+        "search_field": "БАНАНОВЫЙ СОК"
     },
     {
         "name": "Бананы сушёные",
@@ -565,7 +635,8 @@
         "fat": "1.8",
         "carbohydrate": "80.5",
         "kcal": "390",
-        "url": "https://calorizator.ru/product/nut/banana-dried"
+        "url": "https://calorizator.ru/product/nut/banana-dried",
+        "search_field": "БАНАНЫ СУШЁНЫЕ"
     },
     {
         "name": "Барабулька (султанка)",
@@ -573,7 +644,8 @@
         "fat": "3.8",
         "carbohydrate": "0.0",
         "kcal": "117",
-        "url": "https://calorizator.ru/product/sea/mullet"
+        "url": "https://calorizator.ru/product/sea/mullet",
+        "search_field": "БАРАБУЛЬКА (СУЛТАНКА)"
     },
     {
         "name": "Бараний окорок",
@@ -581,7 +653,8 @@
         "fat": "18.0",
         "carbohydrate": "0.0",
         "kcal": "232",
-        "url": "https://calorizator.ru/product/beef/lamb-3"
+        "url": "https://calorizator.ru/product/beef/lamb-3",
+        "search_field": "БАРАНИЙ ОКОРОК"
     },
     {
         "name": "Бараний рубец",
@@ -589,7 +662,8 @@
         "fat": "4.0",
         "carbohydrate": "0.0",
         "kcal": "82",
-        "url": "https://calorizator.ru/product/beef/lamb-11"
+        "url": "https://calorizator.ru/product/beef/lamb-11",
+        "search_field": "БАРАНИЙ РУБЕЦ"
     },
     {
         "name": "Бараний фарш",
@@ -597,7 +671,8 @@
         "fat": "23.0",
         "carbohydrate": "0.0",
         "kcal": "282",
-        "url": "https://calorizator.ru/product/beef/lamb-10"
+        "url": "https://calorizator.ru/product/beef/lamb-10",
+        "search_field": "БАРАНИЙ ФАРШ"
     },
     {
         "name": "Бараний язык",
@@ -605,7 +680,8 @@
         "fat": "16.1",
         "carbohydrate": "0.0",
         "kcal": "195",
-        "url": "https://calorizator.ru/product/beef/lamb-7"
+        "url": "https://calorizator.ru/product/beef/lamb-7",
+        "search_field": "БАРАНИЙ ЯЗЫК"
     },
     {
         "name": "Баранина",
@@ -613,7 +689,8 @@
         "fat": "16.3",
         "carbohydrate": "0.0",
         "kcal": "209",
-        "url": "https://calorizator.ru/product/beef/lamb-12"
+        "url": "https://calorizator.ru/product/beef/lamb-12",
+        "search_field": "БАРАНИНА"
     },
     {
         "name": "Баранина вареная",
@@ -621,7 +698,8 @@
         "fat": "21.4",
         "carbohydrate": "0.0",
         "kcal": "291",
-        "url": "https://calorizator.ru/product/beef/lamb-8"
+        "url": "https://calorizator.ru/product/beef/lamb-8",
+        "search_field": "БАРАНИНА ВАРЕНАЯ"
     },
     {
         "name": "Баранина жареная",
@@ -629,7 +707,8 @@
         "fat": "24.0",
         "carbohydrate": "0.0",
         "kcal": "320",
-        "url": "https://calorizator.ru/product/beef/lamb-1"
+        "url": "https://calorizator.ru/product/beef/lamb-1",
+        "search_field": "БАРАНИНА ЖАРЕНАЯ"
     },
     {
         "name": "Баранина тушеная",
@@ -637,6 +716,7 @@
         "fat": "20.9",
         "carbohydrate": "0.0",
         "kcal": "268",
-        "url": "https://calorizator.ru/product/beef/lamb-9"
+        "url": "https://calorizator.ru/product/beef/lamb-9",
+        "search_field": "БАРАНИНА ТУШЕНАЯ"
     }
 ]

@@ -1,26 +1,23 @@
-from typing import Any
+import os
 
+import dotenv
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
+dotenv.load_dotenv()
+TEST = os.getenv("TEST") == 'True'
+DB_NAME = os.getenv("TEST_DB_NAME") if TEST else os.getenv("DB_NAME")
+DB_URL = f"sqlite+aiosqlite:///{DB_NAME}"
+
 Base = declarative_base()
+engine = create_async_engine(
+            DB_URL, echo=True)
+async_db_session = sessionmaker(engine,
+                                expire_on_commit=False,
+                                class_=AsyncSession)()
 
 
-class AsyncDatabaseSession:
-    def __init__(self) -> None:
-        self._engine = create_async_engine(
-            "sqlite+aiosqlite:///tg_app/tgfood.sqlite?charset=utf8", echo=True)
-        self._session = sessionmaker(self._engine,
-                                     expire_on_commit=False,
-                                     class_=AsyncSession)()
-
-    def __getattr__(self, name: str) -> Any:
-        return getattr(self._session, name)
-
-    async def create_all(self) -> None:
-        async with self._engine.begin() as conn:
-            await conn.run_sync(Base.metadata.create_all)
-
-
-async_db_session = AsyncDatabaseSession()
+async def create_db():
+    async with engine.begin() as conn:
+        await conn.run_sync(Base.metadata.create_all)

@@ -15,7 +15,7 @@ class CheckName:
 
     @classmethod
     async def find_similar(cls, name: str) -> Any:
-        query = select(cls).filter((cls.name).contains(name))
+        query = select(cls).filter((cls.search_field).contains(name))
         result = await async_db_session.execute(query)
         return result.scalars().all()
 
@@ -30,5 +30,6 @@ class Product(Base, CrudModel, CheckName):
     carbohydrate = Column(Integer)
     kcal = Column(Integer)
     url = Column(String, unique=True)
+    search_field = Column(String, unique=True, nullable=False)
 
     __mapper_args__ = {"eager_defaults": True}

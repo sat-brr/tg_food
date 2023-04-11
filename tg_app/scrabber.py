@@ -73,6 +73,7 @@ async def collect_products_data(page_data: BeautifulSoup) -> list[dict]:
             'carbohydrate': carbohydrate,
             'kcal': kcal,
             'url': f'https://calorizator.ru{url}',
+            'search_field': name.upper()
         }
 
         products_data.append(product)

@@ -38,7 +38,7 @@ async def process_check_phone(message: types.Message,
                              reply_markup=keyboard)
         return
     if not await User.check_by_phone(phone):
-        await User.create(user_id=usr_id, user_phone=int(phone))
+        await User.create(tg_id=usr_id, user_phone=int(phone))
     await message.answer("Вы зарегистрированы."
                          " Введите команду /back для продолжения.",
                          reply_markup=keyboard)

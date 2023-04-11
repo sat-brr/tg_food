@@ -34,8 +34,9 @@ async def get_products(message: types.Message, state: FSMContext) -> None:
 
     await message.answer('Пожалуйста, подождите...', reply_markup=keyboard)
 
-    product_list, gram = await find_and_calc(message.text)
-    if product_list:
+    product_list_and_gram = await find_and_calc(message.text)
+    if product_list_and_gram:
+        product_list, gram = product_list_and_gram
         for index, prod in enumerate(product_list):
 
             card = f'{hlink(prod.get("name"), prod.get("url"))}\n' \

@@ -5,7 +5,8 @@
         "fat": "0.0",
         "carbohydrate": "8.7",
         "kcal": "38",
-        "url": "https://calorizator.ru/product/drink/7up"
+        "url": "https://calorizator.ru/product/drink/7up",
+        "search_field": "7UP"
     },
     {
         "name": "Actimel Вишня",
@@ -13,7 +14,8 @@
         "fat": "1.5",
         "carbohydrate": "11.5",
         "kcal": "74",
-        "url": "https://calorizator.ru/product/milk/actimel-7"
+        "url": "https://calorizator.ru/product/milk/actimel-7",
+        "search_field": "ACTIMEL ВИШНЯ"
     },
     {
         "name": "Actimel Гранат",
@@ -21,7 +23,8 @@
         "fat": "1.5",
         "carbohydrate": "11.5",
         "kcal": "73",
-        "url": "https://calorizator.ru/product/milk/actimel-1"
+        "url": "https://calorizator.ru/product/milk/actimel-1",
+        "search_field": "ACTIMEL ГРАНАТ"
     },
     {
         "name": "Actimel Земляника и шиповник",
@@ -29,7 +32,8 @@
         "fat": "1.5",
         "carbohydrate": "11.5",
         "kcal": "73",
-        "url": "https://calorizator.ru/product/milk/actimel-8"
+        "url": "https://calorizator.ru/product/milk/actimel-8",
+        "search_field": "ACTIMEL ЗЕМЛЯНИКА И ШИПОВНИК"
     },
     {
         "name": "Actimel Клубника",
@@ -37,7 +41,8 @@
         "fat": "1.5",
         "carbohydrate": "11.5",
         "kcal": "72",
-        "url": "https://calorizator.ru/product/milk/actimel-2"
+        "url": "https://calorizator.ru/product/milk/actimel-2",
+        "search_field": "ACTIMEL КЛУБНИКА"
     },
     {
         "name": "Actimel Малина и клюква",
@@ -45,7 +50,8 @@
         "fat": "1.5",
         "carbohydrate": "11.5",
         "kcal": "72",
-        "url": "https://calorizator.ru/product/milk/actimel-5"
+        "url": "https://calorizator.ru/product/milk/actimel-5",
+        "search_field": "ACTIMEL МАЛИНА И КЛЮКВА"
     },
     {
         "name": "Actimel Мультифрукт",
@@ -53,7 +59,8 @@
         "fat": "1.5",
         "carbohydrate": "12.0",
         "kcal": "75",
-        "url": "https://calorizator.ru/product/milk/actimel-6"
+        "url": "https://calorizator.ru/product/milk/actimel-6",
+        "search_field": "ACTIMEL МУЛЬТИФРУКТ"
     },
     {
         "name": "Actimel Натуральный",
@@ -61,7 +68,8 @@
         "fat": "1.6",
         "carbohydrate": "10.5",
         "kcal": "71",
-        "url": "https://calorizator.ru/product/milk/actimel-3"
+        "url": "https://calorizator.ru/product/milk/actimel-3",
+        "search_field": "ACTIMEL НАТУРАЛЬНЫЙ"
     },
     {
         "name": "Actimel Черника и ежевика",
@@ -69,7 +77,8 @@
         "fat": "1.5",
         "carbohydrate": "11.5",
         "kcal": "74",
-        "url": "https://calorizator.ru/product/milk/actimel-4"
+        "url": "https://calorizator.ru/product/milk/actimel-4",
+        "search_field": "ACTIMEL ЧЕРНИКА И ЕЖЕВИКА"
     },
     {
         "name": "Exponenta High-Pro Черника-Алоэ",
@@ -77,7 +86,8 @@
         "fat": "0.0",
         "carbohydrate": "2.5",
         "kcal": "60",
-        "url": "https://calorizator.ru/product/milk/exponenta-high-pro-1"
+        "url": "https://calorizator.ru/product/milk/exponenta-high-pro-1",
+        "search_field": "EXPONENTA HIGH-PRO ЧЕРНИКА-АЛОЭ"
     },
     {
         "name": "Fruttis Сливочное лакомство Клубника-Земляника",
@@ -85,7 +95,8 @@
         "fat": "5.0",
         "carbohydrate": "17.0",
         "kcal": "122",
-        "url": "https://calorizator.ru/product/milk/fruttis-1"
+        "url": "https://calorizator.ru/product/milk/fruttis-1",
+        "search_field": "FRUTTIS СЛИВОЧНОЕ ЛАКОМСТВО КЛУБНИКА-ЗЕМЛЯНИКА"
     },
     {
         "name": "Neo Имунеле Natural",
@@ -93,7 +104,8 @@
         "fat": "0.9",
         "carbohydrate": "11.8",
         "kcal": "63",
-        "url": "https://calorizator.ru/product/milk/neo-imunele-1"
+        "url": "https://calorizator.ru/product/milk/neo-imunele-1",
+        "search_field": "NEO ИМУНЕЛЕ NATURAL"
     },
     {
         "name": "Neo Имунеле Гранат-Вишня",
@@ -101,7 +113,8 @@
         "fat": "1.2",
         "carbohydrate": "12.4",
         "kcal": "70",
-        "url": "https://calorizator.ru/product/milk/neo-imunele-3"
+        "url": "https://calorizator.ru/product/milk/neo-imunele-3",
+        "search_field": "NEO ИМУНЕЛЕ ГРАНАТ-ВИШНЯ"
     },
     {
         "name": "Neo Имунеле Клюква-Малина",
@@ -109,7 +122,8 @@
         "fat": "1.2",
         "carbohydrate": "12.6",
         "kcal": "71",
-        "url": "https://calorizator.ru/product/milk/neo-imunele-4"
+        "url": "https://calorizator.ru/product/milk/neo-imunele-4",
+        "search_field": "NEO ИМУНЕЛЕ КЛЮКВА-МАЛИНА"
     },
     {
         "name": "Neo Имунеле Лесные ягоды",
@@ -117,7 +131,8 @@
         "fat": "1.2",
         "carbohydrate": "13.1",
         "kcal": "73",
-        "url": "https://calorizator.ru/product/milk/neo-imunele-2"
+        "url": "https://calorizator.ru/product/milk/neo-imunele-2",
+        "search_field": "NEO ИМУНЕЛЕ ЛЕСНЫЕ ЯГОДЫ"
     },
     {
         "name": "Абрикос",
@@ -125,7 +140,8 @@
         "fat": "0.1",
         "carbohydrate": "9.0",
         "kcal": "44",
-        "url": "https://calorizator.ru/product/fruit/apricot"
+        "url": "https://calorizator.ru/product/fruit/apricot",
+        "search_field": "АБРИКОС"
     },
     {
         "name": "Абрикос консервированный",
@@ -133,7 +149,8 @@
         "fat": "0.1",
         "carbohydrate": "15.5",
         "kcal": "67",
-        "url": "https://calorizator.ru/product/fruit/apricot-1"
+        "url": "https://calorizator.ru/product/fruit/apricot-1",
+        "search_field": "АБРИКОС КОНСЕРВИРОВАННЫЙ"
     },
     {
         "name": "Абрикосовая косточка",
@@ -141,7 +158,8 @@
         "fat": "27.7",
         "carbohydrate": "56.3",
         "kcal": "440",
-        "url": "https://calorizator.ru/product/nut/apricot-stone"
+        "url": "https://calorizator.ru/product/nut/apricot-stone",
+        "search_field": "АБРИКОСОВАЯ КОСТОЧКА"
     },
     {
         "name": "Абрикосовый компот",
@@ -149,7 +167,8 @@
         "fat": "0.0",
         "carbohydrate": "21.0",
         "kcal": "85",
-        "url": "https://calorizator.ru/product/juice/compote-9"
+        "url": "https://calorizator.ru/product/juice/compote-9",
+        "search_field": "АБРИКОСОВЫЙ КОМПОТ"
     },
     {
         "name": "Абрикосовый сок",
@@ -157,7 +176,8 @@
         "fat": "0.1",
         "carbohydrate": "9.0",
         "kcal": "38",
-        "url": "https://calorizator.ru/product/juice/juice-1"
+        "url": "https://calorizator.ru/product/juice/juice-1",
+        "search_field": "АБРИКОСОВЫЙ СОК"
     },
     {
         "name": "Абсент",
@@ -165,7 +185,8 @@
         "fat": "0.0",
         "carbohydrate": "8.8",
         "kcal": "171",
-        "url": "https://calorizator.ru/product/alcohol/absinthe"
+        "url": "https://calorizator.ru/product/alcohol/absinthe",
+        "search_field": "АБСЕНТ"
     },
     {
         "name": "Авокадо",
@@ -173,7 +194,8 @@
         "fat": "20.0",
         "carbohydrate": "6.0",
         "kcal": "212",
-        "url": "https://calorizator.ru/product/fruit/avocado"
+        "url": "https://calorizator.ru/product/fruit/avocado",
+        "search_field": "АВОКАДО"
     },
     {
         "name": "Агар пищевой",
@@ -181,7 +203,8 @@
         "fat": "0.0",
         "carbohydrate": "76.0",
         "kcal": "301",
-        "url": "https://calorizator.ru/product/raw/agar"
+        "url": "https://calorizator.ru/product/raw/agar",
+        "search_field": "АГАР ПИЩЕВОЙ"
     },
     {
         "name": "Аджика",
@@ -189,7 +212,8 @@
         "fat": "3.7",
         "carbohydrate": "5.8",
         "kcal": "59",
-        "url": "https://calorizator.ru/product/raw/adjika"
+        "url": "https://calorizator.ru/product/raw/adjika",
+        "search_field": "АДЖИКА"
     },
     {
         "name": "Ажгон",
@@ -197,7 +221,8 @@
         "fat": "14.5",
         "carbohydrate": "11.9",
         "kcal": "333",
-        "url": "https://calorizator.ru/product/raw/ajwain"
+        "url": "https://calorizator.ru/product/raw/ajwain",
+        "search_field": "АЖГОН"
     },
     {
         "name": "Азу",
@@ -205,7 +230,8 @@
         "fat": "14.2",
         "carbohydrate": "10.2",
         "kcal": "214",
-        "url": "https://calorizator.ru/product/beef/azu"
+        "url": "https://calorizator.ru/product/beef/azu",
+        "search_field": "АЗУ"
     },
     {
         "name": "Айва",
@@ -213,7 +239,8 @@
         "fat": "0.5",
         "carbohydrate": "9.8",
         "kcal": "40",
-        "url": "https://calorizator.ru/product/fruit/quince"
+        "url": "https://calorizator.ru/product/fruit/quince",
+        "search_field": "АЙВА"
     },
     {
         "name": "Айвовый компот",
@@ -221,7 +248,8 @@
         "fat": "0.0",
         "carbohydrate": "20.0",
         "kcal": "79",
-        "url": "https://calorizator.ru/product/juice/compote-10"
+        "url": "https://calorizator.ru/product/juice/compote-10",
+        "search_field": "АЙВОВЫЙ КОМПОТ"
     },
     {
         "name": "Айвовый сок",
@@ -229,7 +257,8 @@
         "fat": "0.0",
         "carbohydrate": "10.6",
         "kcal": "45",
-        "url": "https://calorizator.ru/product/juice/juice-2"
+        "url": "https://calorizator.ru/product/juice/juice-2",
+        "search_field": "АЙВОВЫЙ СОК"
     },
     {
         "name": "Айран (тан) газированный",
@@ -237,7 +266,8 @@
         "fat": "1.5",
         "carbohydrate": "1.4",
         "kcal": "24",
-        "url": "https://calorizator.ru/product/milk/ayran-2"
+        "url": "https://calorizator.ru/product/milk/ayran-2",
+        "search_field": "АЙРАН (ТАН) ГАЗИРОВАННЫЙ"
     },
     {
         "name": "Айран (тан) из козьего молока",
@@ -245,7 +275,8 @@
         "fat": "1.5",
         "carbohydrate": "1.4",
         "kcal": "24",
-        "url": "https://calorizator.ru/product/milk/ayran-5"
+        "url": "https://calorizator.ru/product/milk/ayran-5",
+        "search_field": "АЙРАН (ТАН) ИЗ КОЗЬЕГО МОЛОКА"
     },
     {
         "name": "Айран (тан) негазированный",
@@ -253,7 +284,8 @@
         "fat": "1.5",
         "carbohydrate": "1.4",
         "kcal": "24",
-        "url": "https://calorizator.ru/product/milk/ayran-1"
+        "url": "https://calorizator.ru/product/milk/ayran-1",
+        "search_field": "АЙРАН (ТАН) НЕГАЗИРОВАННЫЙ"
     },
     {
         "name": "Айран (тан) негазированный нежирный",
@@ -261,7 +293,8 @@
         "fat": "0.2",
         "carbohydrate": "1.4",
         "kcal": "12",
-        "url": "https://calorizator.ru/product/milk/ayran-3"
+        "url": "https://calorizator.ru/product/milk/ayran-3",
+        "search_field": "АЙРАН (ТАН) НЕГАЗИРОВАННЫЙ НЕЖИРНЫЙ"
     },
     {
         "name": "Айран (тан) с укропом и огурцом",
@@ -269,7 +302,8 @@
         "fat": "1.0",
         "carbohydrate": "1.4",
         "kcal": "19",
-        "url": "https://calorizator.ru/product/milk/ayran-4"
+        "url": "https://calorizator.ru/product/milk/ayran-4",
+        "search_field": "АЙРАН (ТАН) С УКРОПОМ И ОГУРЦОМ"
     },
     {
         "name": "Айран (тан) сильногазированный",
@@ -277,7 +311,8 @@
         "fat": "1.0",
         "carbohydrate": "1.4",
         "kcal": "19",
-        "url": "https://calorizator.ru/product/milk/ayran-6"
+        "url": "https://calorizator.ru/product/milk/ayran-6",
+        "search_field": "АЙРАН (ТАН) СИЛЬНОГАЗИРОВАННЫЙ"
     },
     {
         "name": "Айсинг",
@@ -285,7 +320,8 @@
         "fat": "0.0",
         "carbohydrate": "78.8",
         "kcal": "305",
-        "url": "https://calorizator.ru/product/cake/icing"
+        "url": "https://calorizator.ru/product/cake/icing",
+        "search_field": "АЙСИНГ"
     },
     {
         "name": "Аквафаба нутовая",
@@ -293,7 +329,8 @@
         "fat": "0.0",
         "carbohydrate": "0.9",
         "kcal": "5",
-        "url": "https://calorizator.ru/product/raw/aquafaba-2"
+        "url": "https://calorizator.ru/product/raw/aquafaba-2",
+        "search_field": "АКВАФАБА НУТОВАЯ"
     },
     {
         "name": "Аквафаба сублимированная Гала-Гала",
@@ -301,7 +338,8 @@
         "fat": "0.0",
         "carbohydrate": "14.0",
         "kcal": "84",
-        "url": "https://calorizator.ru/product/raw/aquafaba-1"
+        "url": "https://calorizator.ru/product/raw/aquafaba-1",
+        "search_field": "АКВАФАБА СУБЛИМИРОВАННАЯ ГАЛА-ГАЛА"
     },
     {
         "name": "Аки",
@@ -309,7 +347,8 @@
         "fat": "15.0",
         "carbohydrate": "8.0",
         "kcal": "151",
-        "url": "https://calorizator.ru/product/fruit/aki"
+        "url": "https://calorizator.ru/product/fruit/aki",
+        "search_field": "АКИ"
     },
     {
         "name": "Активиа Быстрый завтрак Клубника",
@@ -317,7 +356,8 @@
         "fat": "2.8",
         "carbohydrate": "20.9",
         "kcal": "127",
-        "url": "https://calorizator.ru/product/milk/activia-bz-2"
+        "url": "https://calorizator.ru/product/milk/activia-bz-2",
+        "search_field": "АКТИВИА БЫСТРЫЙ ЗАВТРАК КЛУБНИКА"
     },
     {
         "name": "Активиа Быстрый завтрак Натуральный",
@@ -325,7 +365,8 @@
         "fat": "3.1",
         "carbohydrate": "14.4",
         "kcal": "107",
-        "url": "https://calorizator.ru/product/milk/activia-bz-1"
+        "url": "https://calorizator.ru/product/milk/activia-bz-1",
+        "search_field": "АКТИВИА БЫСТРЫЙ ЗАВТРАК НАТУРАЛЬНЫЙ"
     },
     {
         "name": "Активиа Быстрый завтрак с овсянкой Яблоко-Груша",
@@ -333,7 +374,8 @@
         "fat": "3.1",
         "carbohydrate": "16.7",
         "kcal": "110",
-        "url": "https://calorizator.ru/product/milk/activia-bz-3"
+        "url": "https://calorizator.ru/product/milk/activia-bz-3",
+        "search_field": "АКТИВИА БЫСТРЫЙ ЗАВТРАК С ОВСЯНКОЙ ЯБЛОКО-ГРУША"
     },
     {
         "name": "Активиа Кефирная 1%",
@@ -341,7 +383,8 @@
         "fat": "1.0",
         "carbohydrate": "4.5",
         "kcal": "39",
-        "url": "https://calorizator.ru/product/milk/activia-kefir-2"
+        "url": "https://calorizator.ru/product/milk/activia-kefir-2",
+        "search_field": "АКТИВИА КЕФИРНАЯ 1%"
     },
     {
         "name": "Активиа Кефирная 3%",
@@ -349,7 +392,8 @@
         "fat": "3.0",
         "carbohydrate": "3.6",
         "kcal": "53",
-        "url": "https://calorizator.ru/product/milk/activia-kefir-1"
+        "url": "https://calorizator.ru/product/milk/activia-kefir-1",
+        "search_field": "АКТИВИА КЕФИРНАЯ 3%"
     },
     {
         "name": "Активиа Момент удовольствия Вишня",
@@ -357,7 +401,8 @@
         "fat": "2.7",
         "carbohydrate": "13.7",
         "kcal": "97",
-        "url": "https://calorizator.ru/product/milk/activia-moment-2"
+        "url": "https://calorizator.ru/product/milk/activia-moment-2",
+        "search_field": "АКТИВИА МОМЕНТ УДОВОЛЬСТВИЯ ВИШНЯ"
     },
     {
         "name": "Активиа Момент удовольствия Земляника",
@@ -365,7 +410,8 @@
         "fat": "2.7",
         "carbohydrate": "12.9",
         "kcal": "97",
-        "url": "https://calorizator.ru/product/milk/activia-moment-1"
+        "url": "https://calorizator.ru/product/milk/activia-moment-1",
+        "search_field": "АКТИВИА МОМЕНТ УДОВОЛЬСТВИЯ ЗЕМЛЯНИКА"
     },
     {
         "name": "Активиа Питьевая Ананас",
@@ -373,7 +419,8 @@
         "fat": "2.0",
         "carbohydrate": "12.2",
         "kcal": "77",
-        "url": "https://calorizator.ru/product/milk/activia-pit-6"
+        "url": "https://calorizator.ru/product/milk/activia-pit-6",
+        "search_field": "АКТИВИА ПИТЬЕВАЯ АНАНАС"
     },
     {
         "name": "Активиа Питьевая Бифидойогурт Классический 1.5%",
@@ -381,7 +428,8 @@
         "fat": "1.5",
         "carbohydrate": "4.4",
         "kcal": "45",
-        "url": "https://calorizator.ru/product/milk/activia-pit-9"
+        "url": "https://calorizator.ru/product/milk/activia-pit-9",
+        "search_field": "АКТИВИА ПИТЬЕВАЯ БИФИДОЙОГУРТ КЛАССИЧЕСКИЙ 1.5%"
     },
     {
         "name": "Активиа Питьевая Вишня и чёрная смородина",
@@ -389,7 +437,8 @@
         "fat": "2.0",
         "carbohydrate": "12.8",
         "kcal": "81",
-        "url": "https://calorizator.ru/product/milk/activia-pit-5"
+        "url": "https://calorizator.ru/product/milk/activia-pit-5",
+        "search_field": "АКТИВИА ПИТЬЕВАЯ ВИШНЯ И ЧЁРНАЯ СМОРОДИНА"
     },
     {
         "name": "Активиа Питьевая Злаки",
@@ -397,7 +446,8 @@
         "fat": "2.2",
         "carbohydrate": "12.4",
         "kcal": "81",
-        "url": "https://calorizator.ru/product/milk/activia-pit-2"
+        "url": "https://calorizator.ru/product/milk/activia-pit-2",
+        "search_field": "АКТИВИА ПИТЬЕВАЯ ЗЛАКИ"
     },
     {
         "name": "Активиа Питьевая Клубника и земляника",
@@ -405,7 +455,8 @@
         "fat": "2.2",
         "carbohydrate": "12.4",
         "kcal": "81",
-        "url": "https://calorizator.ru/product/milk/activia-pit-8"
+        "url": "https://calorizator.ru/product/milk/activia-pit-8",
+        "search_field": "АКТИВИА ПИТЬЕВАЯ КЛУБНИКА И ЗЕМЛЯНИКА"
     },
     {
         "name": "Активиа Питьевая Малина и злаки",
@@ -413,7 +464,8 @@
         "fat": "2.1",
         "carbohydrate": "11.0",
         "kcal": "74",
-        "url": "https://calorizator.ru/product/milk/activia-pit-7"
+        "url": "https://calorizator.ru/product/milk/activia-pit-7",
+        "search_field": "АКТИВИА ПИТЬЕВАЯ МАЛИНА И ЗЛАКИ"
     },
     {
         "name": "Активиа Питьевая Натуральная",
@@ -421,7 +473,8 @@
         "fat": "2.4",
         "carbohydrate": "4.5",
         "kcal": "52",
-        "url": "https://calorizator.ru/product/milk/activia-pit-1"
+        "url": "https://calorizator.ru/product/milk/activia-pit-1",
+        "search_field": "АКТИВИА ПИТЬЕВАЯ НАТУРАЛЬНАЯ"
     },
     {
         "name": "Активиа Питьевая Тыква банан и корица",
@@ -429,7 +482,8 @@
         "fat": "2.1",
         "carbohydrate": "10.9",
         "kcal": "74",
-        "url": "https://calorizator.ru/product/milk/activia-pit-10"
+        "url": "https://calorizator.ru/product/milk/activia-pit-10",
+        "search_field": "АКТИВИА ПИТЬЕВАЯ ТЫКВА БАНАН И КОРИЦА"
     },
     {
         "name": "Активиа Питьевая Чернослив",
@@ -437,7 +491,8 @@
         "fat": "2.0",
         "carbohydrate": "12.8",
         "kcal": "80",
-        "url": "https://calorizator.ru/product/milk/activia-pit-4"
+        "url": "https://calorizator.ru/product/milk/activia-pit-4",
+        "search_field": "АКТИВИА ПИТЬЕВАЯ ЧЕРНОСЛИВ"
     },
     {
         "name": "Активиа Питьевая Яблоко и злаки",
@@ -445,7 +500,8 @@
         "fat": "2.2",
         "carbohydrate": "13.0",
         "kcal": "83",
-        "url": "https://calorizator.ru/product/milk/activia-pit-3"
+        "url": "https://calorizator.ru/product/milk/activia-pit-3",
+        "search_field": "АКТИВИА ПИТЬЕВАЯ ЯБЛОКО И ЗЛАКИ"
     },
     {
         "name": "Активиа Семейная Клубника",
@@ -453,7 +509,8 @@
         "fat": "3.2",
         "carbohydrate": "13.6",
         "kcal": "98",
-        "url": "https://calorizator.ru/product/milk/activia-sem-1"
+        "url": "https://calorizator.ru/product/milk/activia-sem-1",
+        "search_field": "АКТИВИА СЕМЕЙНАЯ КЛУБНИКА"
     },
     {
         "name": "Активиа Семейная Персик",
@@ -461,7 +518,8 @@
         "fat": "3.2",
         "carbohydrate": "13.6",
         "kcal": "98",
-        "url": "https://calorizator.ru/product/milk/activia-sem-2"
+        "url": "https://calorizator.ru/product/milk/activia-sem-2",
+        "search_field": "АКТИВИА СЕМЕЙНАЯ ПЕРСИК"
     },
     {
         "name": "Активиа Творожная Клубника",
@@ -469,7 +527,8 @@
         "fat": "4.5",
         "carbohydrate": "15.5",
         "kcal": "123",
-        "url": "https://calorizator.ru/product/milk/activia-tvorog-2"
+        "url": "https://calorizator.ru/product/milk/activia-tvorog-2",
+        "search_field": "АКТИВИА ТВОРОЖНАЯ КЛУБНИКА"
     },
     {
         "name": "Активиа Творожная Малина",
@@ -477,7 +536,8 @@
         "fat": "4.5",
         "carbohydrate": "11.4",
         "kcal": "102",
-        "url": "https://calorizator.ru/product/milk/activia-tvorog-7"
+        "url": "https://calorizator.ru/product/milk/activia-tvorog-7",
+        "search_field": "АКТИВИА ТВОРОЖНАЯ МАЛИНА"
     },
     {
         "name": "Активиа Творожная Мюсли",
@@ -485,7 +545,8 @@
         "fat": "4.5",
         "carbohydrate": "15.5",
         "kcal": "123",
-        "url": "https://calorizator.ru/product/milk/activia-tvorog-4"
+        "url": "https://calorizator.ru/product/milk/activia-tvorog-4",
+        "search_field": "АКТИВИА ТВОРОЖНАЯ МЮСЛИ"
     },
     {
         "name": "Активиа Творожная Мюсли и манго",
@@ -493,7 +554,8 @@
         "fat": "4.5",
         "carbohydrate": "14.7",
         "kcal": "119",
-        "url": "https://calorizator.ru/product/milk/activia-tvorog-6"
+        "url": "https://calorizator.ru/product/milk/activia-tvorog-6",
+        "search_field": "АКТИВИА ТВОРОЖНАЯ МЮСЛИ И МАНГО"
     },
     {
         "name": "Активиа Творожная Натуральная",
@@ -501,7 +563,8 @@
         "fat": "4.5",
         "carbohydrate": "3.7",
         "kcal": "79",
-        "url": "https://calorizator.ru/product/milk/activia-tvorog-1"
+        "url": "https://calorizator.ru/product/milk/activia-tvorog-1",
+        "search_field": "АКТИВИА ТВОРОЖНАЯ НАТУРАЛЬНАЯ"
     },
     {
         "name": "Активиа Творожная Отруби и злаки",
@@ -509,7 +572,8 @@
         "fat": "4.3",
         "carbohydrate": "13.7",
         "kcal": "113",
-        "url": "https://calorizator.ru/product/milk/activia-tvorog-5"
+        "url": "https://calorizator.ru/product/milk/activia-tvorog-5",
+        "search_field": "АКТИВИА ТВОРОЖНАЯ ОТРУБИ И ЗЛАКИ"
     },
     {
         "name": "Активиа Творожная Чернослив",
@@ -517,7 +581,8 @@
         "fat": "4.2",
         "carbohydrate": "14.4",
         "kcal": "114",
-        "url": "https://calorizator.ru/product/milk/activia-tvorog-3"
+        "url": "https://calorizator.ru/product/milk/activia-tvorog-3",
+        "search_field": "АКТИВИА ТВОРОЖНАЯ ЧЕРНОСЛИВ"
     },
     {
         "name": "Активиа Фреш Арбуз",
@@ -525,7 +590,8 @@
         "fat": "1.6",
         "carbohydrate": "12.3",
         "kcal": "74",
-        "url": "https://calorizator.ru/product/milk/activia-fresh-5"
+        "url": "https://calorizator.ru/product/milk/activia-fresh-5",
+        "search_field": "АКТИВИА ФРЕШ АРБУЗ"
     },
     {
         "name": "Активиа Фреш Вишня",
@@ -533,7 +599,8 @@
         "fat": "1.6",
         "carbohydrate": "11.0",
         "kcal": "70",
-        "url": "https://calorizator.ru/product/milk/activia-fresh-2"
+        "url": "https://calorizator.ru/product/milk/activia-fresh-2",
+        "search_field": "АКТИВИА ФРЕШ ВИШНЯ"
     },
     {
         "name": "Активиа Фреш Гранат и Малина",
@@ -541,7 +608,8 @@
         "fat": "1.6",
         "carbohydrate": "11.0",
         "kcal": "70",
-        "url": "https://calorizator.ru/product/milk/activia-fresh-1"
+        "url": "https://calorizator.ru/product/milk/activia-fresh-1",
+        "search_field": "АКТИВИА ФРЕШ ГРАНАТ И МАЛИНА"
     },
     {
         "name": "Активиа Фреш Манго",
@@ -549,7 +617,8 @@
         "fat": "1.6",
         "carbohydrate": "12.0",
         "kcal": "73",
-        "url": "https://calorizator.ru/product/milk/activia-fresh-4"
+        "url": "https://calorizator.ru/product/milk/activia-fresh-4",
+        "search_field": "АКТИВИА ФРЕШ МАНГО"
     },
     {
         "name": "Активиа Фреш Персик",
@@ -557,7 +626,8 @@
         "fat": "1.6",
         "carbohydrate": "11.0",
         "kcal": "70",
-        "url": "https://calorizator.ru/product/milk/activia-fresh-3"
+        "url": "https://calorizator.ru/product/milk/activia-fresh-3",
+        "search_field": "АКТИВИА ФРЕШ ПЕРСИК"
     },
     {
         "name": "Актуаль на сыворотке вкус арбуза",
@@ -565,7 +635,8 @@
         "fat": "0.1",
         "carbohydrate": "8.6",
         "kcal": "37",
-        "url": "https://calorizator.ru/product/milk/actual-watermelon"
+        "url": "https://calorizator.ru/product/milk/actual-watermelon",
+        "search_field": "АКТУАЛЬ НА СЫВОРОТКЕ ВКУС АРБУЗА"
     },
     {
         "name": "Акула катран",
@@ -573,7 +644,8 @@
         "fat": "7.0",
         "carbohydrate": "0.0",
         "kcal": "142",
-        "url": "https://calorizator.ru/product/sea/shark-1"
+        "url": "https://calorizator.ru/product/sea/shark-1",
+        "search_field": "АКУЛА КАТРАН"
     },
     {
         "name": "Акульи плавники",
@@ -581,7 +653,8 @@
         "fat": "4.8",
         "carbohydrate": "0.0",
         "kcal": "130",
-        "url": "https://calorizator.ru/product/sea/shark-2"
+        "url": "https://calorizator.ru/product/sea/shark-2",
+        "search_field": "АКУЛЬИ ПЛАВНИКИ"
     },
     {
         "name": "Алыча",
@@ -589,7 +662,8 @@
         "fat": "0.0",
         "carbohydrate": "6.9",
         "kcal": "27",
-        "url": "https://calorizator.ru/product/fruit/cherry-plum"
+        "url": "https://calorizator.ru/product/fruit/cherry-plum",
+        "search_field": "АЛЫЧА"
     },
     {
         "name": "Амарант",
@@ -597,7 +671,8 @@
         "fat": "7.0",
         "carbohydrate": "69.0",
         "kcal": "371",
-        "url": "https://calorizator.ru/product/cereals/amaranth-1"
+        "url": "https://calorizator.ru/product/cereals/amaranth-1",
+        "search_field": "АМАРАНТ"
     },
     {
         "name": "Амарантовые отруби Di&Di с гречей",
@@ -605,7 +680,8 @@
         "fat": "5.5",
         "carbohydrate": "55.0",
         "kcal": "345",
-        "url": "https://calorizator.ru/product/cereals/amaranth-3"
+        "url": "https://calorizator.ru/product/cereals/amaranth-3",
+        "search_field": "АМАРАНТОВЫЕ ОТРУБИ DI&DI С ГРЕЧЕЙ"
     },
     {
         "name": "Амарантовые отруби Di&Di с ламинарией",
@@ -613,7 +689,8 @@
         "fat": "5.1",
         "carbohydrate": "37.0",
         "kcal": "311",
-        "url": "https://calorizator.ru/product/cereals/amaranth-4"
+        "url": "https://calorizator.ru/product/cereals/amaranth-4",
+        "search_field": "АМАРАНТОВЫЕ ОТРУБИ DI&DI С ЛАМИНАРИЕЙ"
     },
     {
         "name": "Амарантовые отруби Di&Di с топинамбуром",
@@ -621,7 +698,8 @@
         "fat": "5.5",
         "carbohydrate": "55.0",
         "kcal": "345",
-        "url": "https://calorizator.ru/product/cereals/amaranth-2"
+        "url": "https://calorizator.ru/product/cereals/amaranth-2",
+        "search_field": "АМАРАНТОВЫЕ ОТРУБИ DI&DI С ТОПИНАМБУРОМ"
     },
     {
         "name": "Американская смесь Hortex",
@@ -629,7 +707,8 @@
         "fat": "0.5",
         "carbohydrate": "5.1",
         "kcal": "39",
-        "url": "https://calorizator.ru/product/mushroom/mushroom-42"
+        "url": "https://calorizator.ru/product/mushroom/mushroom-42",
+        "search_field": "АМЕРИКАНСКАЯ СМЕСЬ HORTEX"
     },
     {
         "name": "Амур белый",
@@ -637,6 +716,7 @@
         "fat": "5.3",
         "carbohydrate": "0.0",
         "kcal": "134",
-        "url": "https://calorizator.ru/product/sea/carp-6"
+        "url": "https://calorizator.ru/product/sea/carp-6",
+        "search_field": "АМУР БЕЛЫЙ"
     }
 ]

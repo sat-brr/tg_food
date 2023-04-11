@@ -20,7 +20,7 @@ async def filter_by_match(product_name: str,
     product_name_words = product_name.split()
     len_name_words = len(name_words)
     len_prod_name_words = len(product_name_words)
-    if product_name_words[0].lower() != name_words[0].lower():
+    if product_name_words[0] != name_words[0]:
         return
 
     if len_prod_name_words < len_name_words:
@@ -52,13 +52,14 @@ async def find_similar_products(search_name: str) -> list[dict] | None:
 async def get_filtered_products(similar_products, search_name):
     result = []
     for product in similar_products:
-        filter_result = await filter_by_match(product['name'], search_name)
+        filter_result = await filter_by_match(product['name'].upper(),
+                                              search_name)
         if filter_result:
             result.append(product)
     return result
 
 
-async def parse_message(usr_message: str):
+async def parse_message(usr_message: str) -> tuple[str, int]:
     message = usr_message.split(',')
     gram = 100
     if 1 < len(message) < 3:
@@ -67,7 +68,7 @@ async def parse_message(usr_message: str):
         except Exception:
             pass
 
-    return message[0].capitalize(), gram
+    return message[0].upper(), gram
 
 
 async def find_and_calc(usr_message: str):
